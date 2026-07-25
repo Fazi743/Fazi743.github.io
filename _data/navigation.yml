@@ -8,7 +8,6 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-
   - title: "Home"
     url: /
 
@@ -30,46 +29,7 @@ main:
   - title: "Education"
     url: /education/
 
-  - title: "Awards"
-    url: /awards/
-
-  - title: "Workshops"
-    url: /workshops/
-
-  - title: "Services"
-    url: /services/
-
-  - title: "Portfolio"
-    url: /portfolio/
-
-  - title: "Certifications"
-    url: /certifications/
-
-  - title: "Contact"
-    url: /contact/main:
-
-  - title: "Home"
-    url: /
-
-  - title: "About"
-    url: /about/
-
-  - title: "Research"
-    url: /research/
-
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Experience"
-    url: /experience/
-
-  - title: "Education"
-    url: /education/
-
-  - title: "Awards"
+  - title: "Awards & Scholarships"
     url: /awards/
 
   - title: "Workshops"
