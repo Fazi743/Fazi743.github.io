@@ -80,10 +80,10 @@ Machine learning-based Android application that recommends personalized diets us
 
 ### 🎫 Bus Ticket Booking System
 
-Web-based ticket booking platform developed using HTML, CSS, PHP, and MySQL.
+Web-based Bus ticket booking platform developed using HTML, CSS, PHP, and MySQL.
 
 **GitHub**
-<YOUR GITHUB LINK>
+<https://github.com/Fazi743/Bus-Ticket-booking-System>
 
 ---
 
@@ -92,7 +92,7 @@ Web-based ticket booking platform developed using HTML, CSS, PHP, and MySQL.
 Developed both a Java console application and an SQL database management system for handling student records and academic information.
 
 **GitHub**
-<YOUR GITHUB LINK>
+<https://github.com/Fazi743/Student-Management-System>
 
 ---
 
@@ -101,4 +101,11 @@ Developed both a Java console application and an SQL database management system 
 Performed exploratory data analysis and visualization to study the effects of COVID-19 using Python.
 
 **GitHub**
-<YOUR GITHUB LINK>
+<https://github.com/Fazi743/Covid-19-Impact-Analysis>
+
+### 📊 COVID Vaccine Sentiment Analysis
+
+Performed exploratory data analysis and visualization to study the effects of COVID vaccine sentiments using Python.
+
+**GitHub**
+<https://github.com/Fazi743/COVID-Vaccine-Sentiment-Analysis>
