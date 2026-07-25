@@ -74,7 +74,7 @@ Conducted research on intelligent railway inspection using deep learning, point 
 Machine learning-based Android application that recommends personalized diets using health information such as age, BMI, diabetes status, and personal goals.
 
 **GitHub**
-<YOUR GITHUB LINK>
+<https://github.com/Fazi743/Smart-Dietition_FYP>
 
 ---
 
