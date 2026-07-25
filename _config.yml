@@ -24,18 +24,18 @@ repository               : "Fazi743/Fazi743.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Syed Faizan Hussain Shah"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Master's Student, Jeju National University"
+  location         : "Jeju Island, South Korea"
+  employer         : "Data-Centric Generative AI Lab"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "faizan.bukhari@stu.jejunu.ac.kr" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=D_xqBaoAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/yourorcidurl"
