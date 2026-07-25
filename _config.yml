@@ -26,7 +26,12 @@ author:
   avatar           : "profile.png"
   name             : "Syed Faizan Hussain Shah"
   pronouns         : # example: "she/her"  
-  bio              : "Master's Student, Jeju National University"
+  bio: >
+  Master's Student in Artificial Intelligence
+  <br>
+  AI Researcher
+  <br>
+  Efficient LLMs & Vision-Language Models
   location         : "Jeju Island, South Korea"
   employer         : "Data-Centric Generative AI Lab"
   uri              : # URL
@@ -57,7 +62,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +71,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "www.linkedin.com/in/syed-faizan-hussain-shah"
+  linkedin         : "syed-faizan-hussain-shah"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
