@@ -19,6 +19,7 @@ My research focuses on developing **efficient, scalable, and resource-aware Arti
 - Lightweight Fine-Tuning
 - Efficient Deep Learning
 - Computer Vision
+- Infrastructure Monitoring
 - Intelligent Robotics
 
 My goal is to bridge cutting-edge AI research with practical real-world deployment by developing efficient foundation models that can operate effectively in resource-constrained environments.
