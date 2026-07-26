@@ -26,12 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Syed Faizan Hussain Shah"
   pronouns         : # example: "she/her"  
-  bio: >
-  Master's Student in Artificial Intelligence
-  <br>
-  AI Researcher
-  <br>
-  Efficient LLMs & Vision-Language Models
+   bio              : "Master's Student in Artificial Intelligence <br> AI Researcher <br> Efficient LLMs & Vision-Language Models"
   location         : "Jeju Island, South Korea"
   employer         : "Data-Centric Generative AI Lab"
   uri              : # URL
