@@ -49,7 +49,7 @@ Provide professional academic support services to researchers, graduate students
 
 ---
 
-## 🤖 AI Researcher
+## 🤖 Graduate AI Researcher
 **Data-Centric Generative AI Lab (DCAL), Jeju National University**  
 *2025 – Present | Jeju, South Korea*
 
