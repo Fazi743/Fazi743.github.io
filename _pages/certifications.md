@@ -1,4 +1,3 @@
-
 ---
 title: "Certifications"
 permalink: /certifications/
