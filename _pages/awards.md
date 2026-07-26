@@ -3,6 +3,7 @@
 title: "Awards & Scholarships"
 permalink: /awards/
 author_profile: true
+layout: single
 ---
 
 ## Awards
