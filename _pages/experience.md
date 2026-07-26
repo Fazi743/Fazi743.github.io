@@ -1,11 +1,7 @@
 ---
 permalink: /experience/
-title: "Experience"
+title: "Professional Experience"
 author_profile: true
----
-
-# Professional Experience
-
 ---
 
 ## 🎓 Teaching Assistant
