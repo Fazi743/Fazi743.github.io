@@ -15,7 +15,7 @@ Research Areas:
 - Vision-Language Models (VLMs)
 - Model Quantization
 - Efficient AI
-- Robotics
+- Robotics & Infrastructure Monitoring
 
 ---
 
