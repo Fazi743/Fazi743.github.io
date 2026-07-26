@@ -2,10 +2,6 @@
 layout: splash
 title: "Syed Faizan Hussain Shah"
 permalink: /
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.3"
-  overlay_image: /images/banner.jpg
 ---
 
 # Hi, I'm Syed Faizan Hussain Shah 👋
