@@ -1,7 +1,10 @@
 ---
-title: "About"
-permalink: /about/
+permalink: /
+title: "Syed Faizan Hussain Shah"
 author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
 ## Hello, I'm Syed Faizan Hussain Shah 👋
