@@ -224,3 +224,37 @@ grid-template-columns:repeat(2,1fr);
 }
 
 }
+/* ===========================
+   Navbar Profile Image
+=========================== */
+
+.site-logo{
+display:flex;
+align-items:center;
+}
+
+.navbar-avatar{
+
+width:48px;
+
+height:48px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:2px solid #0066ff;
+
+transition:0.3s;
+
+box-shadow:0 4px 15px rgba(0,0,0,.15);
+
+}
+
+.navbar-avatar:hover{
+
+transform:scale(1.08);
+
+box-shadow:0 8px 25px rgba(0,102,255,.35);
+
+}
