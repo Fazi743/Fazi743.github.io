@@ -1,4 +1,3 @@
-
 ---
 title: "Awards & Scholarships"
 permalink: /awards/
