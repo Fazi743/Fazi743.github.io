@@ -1,7 +1,8 @@
 ---
+layout: default
 title: "About"
 permalink: /about/
-author_profile: true
+author_profile: false
 ---
 
 ## Hello, I'm Syed Faizan Hussain Shah 👋
