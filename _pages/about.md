@@ -2,7 +2,7 @@
 layout: default
 title: "About"
 permalink: /about/
-author_profile: false
+author_profile: true
 ---
 
 ## Hello, I'm Syed Faizan Hussain Shah 👋
@@ -19,4 +19,13 @@ Beyond academic research, I collaborate with researchers and industry clients by
 
 My long-term vision is to contribute to the next generation of efficient foundation models that are scalable, resource-aware, and capable of solving real-world challenges across science, engineering, and society.
 
+## Research Journey
+
+My research journey has evolved from computer science and machine learning toward efficient foundation models:
+
+**Computer Science → Machine Learning → Computer Vision → Medical AI → Railway Infrastructure AI → Point-Cloud Intelligence → Large Language Models → Vision-Language Models → Model Quantization → Efficient AI → Robotics**
+
+## Research Vision
+Building efficient foundation models that bring state-of-the-art AI closer to real-world deployment.
+ 
 Thank you for visiting my website!
