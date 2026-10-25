@@ -4,8 +4,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Research Projects
-
 ### 🧠 Attention-Aware Adaptive Block-Wise Quantization for Efficient LLM Fine-Tuning
 **Duration:** 2025–Present
 
