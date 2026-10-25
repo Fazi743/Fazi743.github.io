@@ -12,7 +12,13 @@ layout: single
 
 Awarded the **Best Research Paper Award** for the paper:
 
-**Preliminary Study on Mixed-Bit Quantization and Adaptive qLoRA⁺ Fine-Tuning for Efficient LLMs.**
+### American Society of Civil Engineers (ASCE)
+
+Selected by ASCE as **senior student** member in 2024.
+
+### IEEE Certificate of Participation
+
+Awarded by IEEE for participating in Authorship and open access symposium: tips and best practices to get published from IEEE editors.
 
 ---
 
@@ -23,10 +29,6 @@ Awarded the **Best Research Paper Award** for the paper:
 Awarded a graduate scholarship by **Jeju National University, South Korea**, to pursue a Master's degree in Artificial Intelligence. In addition, I received **research funding from my supervising professor** through the **Data-Centric AI (DCAL) Lab**, supporting my graduate studies and research on efficient Large Language Models (LLMs), Vision-Language Models (VLMs), and AI for robotics.
 
 ---
-
-## American Society of Civil Engineers (ASCE)
-
-Selected by ASCE as **senior student** member in 2024.
 
 ### 🎓 Ehsaas Undergraduate Scholarship (2020 – 2022)
 
