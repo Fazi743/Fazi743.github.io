@@ -207,18 +207,14 @@ color:#0066ff;
 
 }
 
-/* ---------- Footer ----------*/
-
+/* ---------- Footer: show only near bottom ---------- */
 .page__footer {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity .4s ease, transform .4s ease;
+  opacity: 0 !important;
   pointer-events: none;
+  transition: opacity .4s ease;
 }
-
 .page__footer.is-visible {
-  opacity: 1;
-  transform: none;
+  opacity: 1 !important;
   pointer-events: auto;
 }
 
