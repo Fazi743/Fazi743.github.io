@@ -33,7 +33,7 @@ main:
     url: /awards/
 
   - title: "Freelance Portfolio"
-    url: /portfolio/
+    url: /freelance/
 
   - title: "Certifications"
     url: /certifications/
