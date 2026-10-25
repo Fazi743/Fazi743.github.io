@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Syed Faizan Hussain Shah"
 title_separator          : "-"
 name                     : &name "Syed Faizan Hussain Shah"
-description              : &description "Master's Student | AI Researcher | LLM Quantization | VLMs"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Master's Student | AI Researcher | LLM Quantization | Multilingual VLMs | Trustworthy AI"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://fazi743.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,12 +26,12 @@ author:
   avatar           : "profile.png"
   name             : "Syed Faizan Hussain Shah"
   pronouns         : # example: "she/her"  
-  bio              : "Master's of Artificial Intelligence <br> AI Researcher <br> Efficient LLMs & VLMs"
+  bio              : "Master's of Artificial Intelligence <br> AI Researcher | Trustworthy AI <br> Efficient LLMs & VLMs"
   location         : "Jeju Island, South Korea"
   employer         : "Data-Centric Generative AI Lab"
   uri              : # URL
   email            : "faizan.bukhari@stu.jejunu.ac.kr" 
-
+  
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
