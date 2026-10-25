@@ -10,11 +10,15 @@ layout: single
 ### 🏆 Best Research Paper Award
 **12th International Conference on Internet of Things and Convergence (IoTCon 2026)**
 
-Awarded the **Best Research Paper Award** for the paper:
+Awarded the **Best Research Paper Award** for the paper and oral presentation.
+
+---
 
 ### American Society of Civil Engineers (ASCE)
 
 Selected by ASCE as **senior student** member in 2024.
+
+---
 
 ### IEEE Certificate of Participation
 
