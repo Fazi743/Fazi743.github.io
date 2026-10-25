@@ -4,8 +4,6 @@ title: "Research"
 author_profile: true
 ---
 
-# Research
-
 ## Research Vision
 
 My research focuses on developing efficient, scalable, and practical Artificial Intelligence systems that enable state-of-the-art foundation models to operate effectively in real-world and resource-constrained environments. I am particularly interested in bridging the gap between cutting-edge AI research and deployable intelligent systems through model optimization, parameter-efficient learning, and multimodal reasoning.
