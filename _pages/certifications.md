@@ -3,7 +3,6 @@ title: "Certifications"
 permalink: /certifications/
 author_profile: true
 ---
-
 ## DataCamp
 
 - Introduction to SQL
