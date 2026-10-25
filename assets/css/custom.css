@@ -7,6 +7,16 @@ body{
     line-height:1.8;
 }
 
+/* keep the main column full-width inside the flex body */
+body > #main {
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+body > .page__footer {
+  flex-shrink: 0;
+}
+
 .wrapper{
     max-width:1250px;
 }
