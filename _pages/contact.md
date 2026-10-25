@@ -28,7 +28,7 @@ faizanbukhari8815@gmail.com
 - [ORCID](https://orcid.org/0009-0008-3017-9669)
 - [ResearchGate](https://www.researchgate.net/profile/Syed-Faizan-Hussain-Shah)
 - [GitHub](https://github.com/Fazi743)
-- [LinkedIn](www.linkedin.com/in/syed-faizan-hussain-shah)
+- [LinkedIn](https://www.linkedin.com/in/syed-faizan-hussain-shah/)
 
 ---
 
