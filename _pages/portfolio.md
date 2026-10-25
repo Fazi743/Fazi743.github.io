@@ -100,7 +100,7 @@ Alongside my research I work as a freelancer, mainly for academics and researche
   <div class="gallery">
     <a href="/images/freelance/slide-deck-1.png" target="_blank"><img src="/images/freelance/slide-deck-1.png" alt="Academic slide deck"></a>
   </div>
-  <h3>Academic Slide Deck in 24 Hours</h3>
+  <h3>Academic Slide Deck</h3>
   <p><strong>Need:</strong> an 8–10 slide academic presentation built from raw text, without dropping any content, within one day.</p>
   <p><strong>Delivered:</strong> a clean, structured PowerPoint deck on schedule.</p>
   <p><em>PowerPoint · Academic communication</em></p>
