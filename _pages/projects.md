@@ -4,7 +4,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-### 🧠 Attention-Aware Adaptive Block-Wise Quantization for Efficient LLM Fine-Tuning
+### 🧠 Sensitivity-aligned Mixed-precision Quantization and Low-rank Adaptation for LLMs 
 **Duration:** 2025–Present
 
 Developed a novel adaptive mixed-bit quantization framework with Rank-Precision Co-Designed qLoRA+ to improve the efficiency of Large Language Model fine-tuning while preserving downstream performance.
@@ -17,7 +17,7 @@ Developed a novel adaptive mixed-bit quantization framework with Rank-Precision 
 - Quantization
 
 **Status**
-- Under Review (Neural Computing and Applications)
+- Under Review (Springer Nature Journal of Scientific Reports)
 
 ---
 
@@ -34,21 +34,24 @@ Investigated the impact of planning constraints on Large Language Model agents u
 - LLM Agents
 
 **Status**
-- Submitted
+- Under Review
 
 ---
 
-### 👁 Cross-Model Embedding Analysis of Vision-Language Models
+### 👁 Cross-Lingual Vision-Language Models Evaluation
 **Duration:** 2026–Present
 
-Analyzing embedding alignment across multiple Vision-Language Models to understand semantic consistency, tokenization efficiency, and multilingual representation quality.
+Comparing CLIP-family and multilingual vision-language models to understand language-dependent performance, cross-lingual alignment and representation quality.
 
 **Models**
 - CLIP
+- Open AI CLIP
 - SigLIP
 - AltCLIP
-- EVA-CLIP
-- MetaCLIP
+- M-CLIP
+
+**Status**
+- Under Review (ARR)
 
 ---
 
