@@ -94,6 +94,11 @@ margin-bottom:25px;
 
 }
 
+.card h2,
+.section > h2{
+  margin-top:0;
+}
+
 .highlight{
 
 color:#0066ff;
