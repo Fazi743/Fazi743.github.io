@@ -32,3 +32,11 @@ author_profile: true
 
 - Introduction to Data Analytics
 - Excel Essentials for Data Analytics
+
+## E-Rozgaar
+
+- Mobile App Development (React Native)
+
+## DigiSkills
+
+- Freelancing
