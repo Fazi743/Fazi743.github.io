@@ -18,6 +18,14 @@ Assisted in teaching undergraduate courses in **Generative AI** and **Big Data A
 
 ---
 
+## 🤖 Graduate AI Researcher
+**Data-Centric Generative AI Lab (DCAL), Jeju National University**  
+*2025 – Present | Jeju, South Korea*
+
+Conducting research on efficient and scalable foundation models with a focus on resource-constrained AI systems.
+
+---
+
 ## 🔬 Research Assistant
 **Central South University**  
 *October 2023 – August 2025 | Changsha, China*
@@ -47,19 +55,3 @@ Provide professional academic support services to researchers, graduate students
 - Assisted with manuscript formatting in Microsoft Word and LaTeX.
 - Completed **40+ freelance projects** with consistently positive client feedback.
 
----
-
-## 🤖 Graduate AI Researcher
-**Data-Centric Generative AI Lab (DCAL), Jeju National University**  
-*2025 – Present | Jeju, South Korea*
-
-Conducting research on efficient and scalable foundation models with a focus on resource-constrained AI systems.
-
-### Research Areas
-- Large Language Models (LLMs)
-- Vision-Language Models (VLMs)
-- Model Quantization
-- Lightweight Fine-Tuning
-- Efficient Deep Learning
-- Benchmarking and Evaluation
-- AI for Robotics
