@@ -4,8 +4,6 @@ title: "Education"
 author_profile: true
 ---
 
-# Education
-
 ## 🎓 Master in Artificial Intelligence
 **Jeju National University, South Korea**
 
