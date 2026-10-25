@@ -1,6 +1,23 @@
 <!-- start custom footer snippets -->
+<script>
+(function () {
+  var footer = document.querySelector('.page__footer');
+  if (!footer) return;
+
+  function check() {
+    var scrolled = window.innerHeight + window.scrollY;
+    var full = document.documentElement.scrollHeight;
+    // show when within 150px of the bottom, or if the page is too short to scroll
+    if (full - scrolled < 150) footer.classList.add('is-visible');
+    else footer.classList.remove('is-visible');
+  }
+
+  window.addEventListener('scroll', check, { passive: true });
+  window.addEventListener('resize', check);
+  check();
+})();
+</script>
 
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
-
 <!-- end custom footer snippets -->
