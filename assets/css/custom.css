@@ -267,6 +267,11 @@ html body .page__footer {
   margin-top: auto !important;   /* pushes footer to the bottom */
 }
 
+/*--------- Portfolio Cards --------*/
+.card img{ width:100%; height:160px; object-fit:cover; border-radius:10px; margin-bottom:12px; }
+.card h3{ font-size:17px; margin:0 0 8px; }
+.card p{ font-size:14px; line-height:1.5; margin:0 0 6px; }
+
 /* ---------- Mobile ---------- */
 
 @media(max-width:900px){
