@@ -6,7 +6,9 @@ author_profile: true
 
 ## Research Vision
 
-My research focuses on developing efficient, scalable, and practical Artificial Intelligence systems that enable state-of-the-art foundation models to operate effectively in real-world and resource-constrained environments. I am particularly interested in bridging the gap between cutting-edge AI research and deployable intelligent systems through model optimization, parameter-efficient learning, and multimodal reasoning.
+My research focuses on developing efficient, multilingual, and reliable Artificial Intelligence systems, with an emphasis on improving the performance, computational efficiency, and practical usability of foundation models. I am particularly interested in understanding how model optimization, lightweight adaptation, and language representation affect the behavior of Large Language Models (LLMs) and Vision-Language Models (VLMs).
+
+Through empirical evaluation and experimental research, I aim to bridge the gap between advances in foundation models and their deployment under real-world computational constraints. My broader interests include multilingual AI, trustworthy machine learning, and intelligent systems for practical applications.
 
 ---
 
@@ -14,81 +16,62 @@ My research focuses on developing efficient, scalable, and practical Artificial 
 
 ### Efficient Foundation Models
 
-- Large Language Models (LLMs)
-- Vision-Language Models (VLMs)
-- Model Quantization
-- Model Compression
-- Parameter-Efficient Fine-Tuning
-- Efficient Inference
+- Large Language Models (LLMs) and Vision-Language Models (VLMs)
+- Post-training quantization and mixed-precision optimization
+- Parameter-efficient fine-tuning and low-rank adaptation
+- Model compression and memory-efficient inference
+- Performance, latency, and resource-efficiency evaluation
 
 ---
 
-### Artificial Intelligence
+### Multilingual and Cross-Lingual AI
 
-- Machine Learning
-- Deep Learning
-- Multimodal AI
-- Natural Language Processing
-- Computer Vision
-- Generative AI
+- Multilingual vision-language understanding
+- Low-resource language evaluation
+- Native-script and Romanized text representations
+- Cross-lingual representation alignment
+- Language-dependent model performance and robustness
+
+---
+
+### Reliable and Trustworthy AI
+
+- Empirical evaluation of foundation models
+- Robustness across language and input representations
+- Model reliability under computational constraints
+- Reproducible benchmarking and performance analysis
 
 ---
 
-### Intelligent Systems
+### Applied AI and Intelligent Systems
 
-- AI for Robotics
-- Edge AI
-- Smart Infrastructure
-- Intelligent Transportation Systems
-- Resource-Constrained AI Deployment
-
----
+- Computer vision and multimodal learning
+- AI-based railway infrastructure inspection
+- Intelligent transportation and smart infrastructure
+- Resource-aware AI for practical deployment
+- LLM-based planning and robotic decision-making
 
 ## Current Research
 
-Currently, my research is centered on improving the efficiency and deployment of foundation models through lightweight optimization techniques. My ongoing work includes:
-
-- Quantization-aware fine-tuning for Large Language Models
-- Efficient Vision-Language Models
-- Cross-model representation analysis
-- LLM-based robotic task planning
-- Benchmarking efficient foundation models
-- Resource-aware AI for edge deployment
+My current research investigates how foundation models can be made more efficient without compromising their predictive performance, and how their behavior varies across languages and input representations.
 
 ---
 
-## Research Areas
+## Research Approach
 
-### Large Language Models (LLMs)
+My approach combines empirical investigation, controlled experimentation, and quantitative evaluation. Depending on the research problem, I focus on:
 
-Developing efficient LLMs through quantization, mixed-precision optimization, and lightweight adaptation methods.
-
----
-
-### Vision-Language Models (VLMs)
-
-Studying efficient multimodal learning and cross-modal representation alignment for practical AI systems.
+- Model quality: Measuring task performance and identifying degradation introduced by optimization or changes in input representation.
+- Computational efficiency: Evaluating model size, memory usage, inference latency, throughput, and computational requirements.
+- Cross-lingual robustness: Comparing model behavior across languages, scripts, and alternative representations of the same meaning.
+- Reproducibility: Using controlled experimental settings, appropriate baselines, ablation studies, and systematic evaluation.
 
 ---
 
-### Model Compression
+## Future Research Goals
 
-Researching quantization, pruning, parameter-efficient learning, and scalable deployment techniques.
+As I progress through my Master's degree in Artificial Intelligence at Jeju National University, South Korea, I aim to deepen my expertise in efficient foundation models and multilingual AI while preparing for doctoral research.
 
----
+My long-term goal is to develop AI systems that are not only powerful but also computationally efficient, reliable across diverse linguistic settings, and practical to deploy. I am particularly interested in PhD opportunities and research-oriented industry roles involving efficient LLMs, multilingual and multimodal learning, trustworthy AI, and resource-aware intelligent systems.
 
-### Computer Vision
-
-Applying deep learning methods for intelligent monitoring, infrastructure inspection, and real-world perception.
-
----
-
-### AI for Smart Infrastructure
-
-Developing AI systems for railway monitoring, intelligent transportation, and infrastructure management.
-
----
-
-# Research Goals
-
-My long-term research goal is to contribute to the development of efficient and scalable foundation models that make advanced AI technologies accessible across diverse real-world applications, including robotics, intelligent transportation, and resource-constrained computing environments.
+I welcome opportunities for research collaboration, doctoral study, and applied AI research.
