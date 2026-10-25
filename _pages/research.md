@@ -10,9 +10,9 @@ My research focuses on developing efficient, scalable, and practical Artificial 
 
 ---
 
-# Research Interests
+## Research Interests
 
-## Efficient Foundation Models
+### Efficient Foundation Models
 
 - Large Language Models (LLMs)
 - Vision-Language Models (VLMs)
@@ -23,7 +23,7 @@ My research focuses on developing efficient, scalable, and practical Artificial 
 
 ---
 
-## Artificial Intelligence
+### Artificial Intelligence
 
 - Machine Learning
 - Deep Learning
@@ -34,7 +34,7 @@ My research focuses on developing efficient, scalable, and practical Artificial 
 
 ---
 
-## Intelligent Systems
+### Intelligent Systems
 
 - AI for Robotics
 - Edge AI
@@ -44,7 +44,7 @@ My research focuses on developing efficient, scalable, and practical Artificial 
 
 ---
 
-# Current Research
+## Current Research
 
 Currently, my research is centered on improving the efficiency and deployment of foundation models through lightweight optimization techniques. My ongoing work includes:
 
@@ -57,7 +57,7 @@ Currently, my research is centered on improving the efficiency and deployment of
 
 ---
 
-# Research Areas
+## Research Areas
 
 ### Large Language Models (LLMs)
 
