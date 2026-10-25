@@ -207,6 +207,21 @@ color:#0066ff;
 
 }
 
+/* ---------- Footer ----------*/
+
+.page__footer {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .4s ease, transform .4s ease;
+  pointer-events: none;
+}
+
+.page__footer.is-visible {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
 /* ---------- Mobile ---------- */
 
 @media(max-width:900px){
