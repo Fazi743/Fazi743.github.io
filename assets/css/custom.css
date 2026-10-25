@@ -219,16 +219,39 @@ color:#0066ff;
 }
 .page__footer, .page__footer a, .page__footer strong { color: #666; } */
 /* ---------- Footer: normal flow at end of page ---------- */
+/* ---------- Footer ---------- */
 .page__footer {
   position: static !important;
   bottom: auto !important;
   float: none !important;
   opacity: 1 !important;
-  pointer-events: auto;
   animation: none !important;
-  margin-top: 3em;
+  margin-top: 2em;
+  padding: 0;
+  background: #222;              /* footer background */
 }
-.page__footer, .page__footer a, .page__footer strong { color: #666; }
+
+.page__footer footer {
+  margin: 0 auto;
+  padding: 10px 1em;             /* controls footer height */
+  max-width: 1250px;
+}
+
+/* white text and icons */
+.page__footer,
+.page__footer a,
+.page__footer strong,
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far {
+  color: #fff !important;
+}
+
+.page__footer a:hover { color: #0066ff !important; }
+
+/* tighten spacing */
+.page__footer-follow li { padding: 0; }
+.page__footer-copyright { margin: 4px 0 0; font-size: 13px; line-height: 1.5; }
 
 /* ---------- Mobile ---------- */
 
