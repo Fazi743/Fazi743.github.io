@@ -207,17 +207,6 @@ color:#0066ff;
 
 }
 
-/* ---------- Footer: show only near bottom ---------- */
-/* .page__footer {
-  opacity: 0 !important;
-  pointer-events: none;
-  transition: opacity .4s ease;
-}
-.page__footer.is-visible {
-  opacity: 1 !important;
-  pointer-events: auto;
-}
-.page__footer, .page__footer a, .page__footer strong { color: #666; } */
 /* ---------- Footer: normal flow at end of page ---------- */
 /* ---------- Footer ---------- */
 .page__footer {
@@ -252,6 +241,21 @@ color:#0066ff;
 /* tighten spacing */
 .page__footer-follow li { padding: 0; }
 .page__footer-copyright { margin: 4px 0 0; font-size: 13px; line-height: 1.5; }
+
+/* ---------- Keep footer at bottom on short pages ---------- */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html body .page__footer {
+  margin-top: auto !important;   /* pushes footer to the bottom */
+}
 
 /* ---------- Mobile ---------- */
 
