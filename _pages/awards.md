@@ -24,6 +24,10 @@ Awarded a graduate scholarship by **Jeju National University, South Korea**, to 
 
 ---
 
+## American Society of Civil Engineers (ASCE)
+
+Selected by ASCE as **senior student** member in 2024.
+
 ### 🎓 Ehsaas Undergraduate Scholarship (2020 – 2022)
 
 Recipient of the **Ehsaas Undergraduate Scholarship**, a fully funded merit- and need-based scholarship awarded by the **Government of Pakistan**. The scholarship supported my Bachelor of Science in Computer Science at **COMSATS University Islamabad, Attock Campus**, recognizing academic performance and providing financial assistance throughout my undergraduate studies.
