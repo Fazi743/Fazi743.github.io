@@ -4,17 +4,33 @@
   var footer = document.querySelector('.page__footer');
   if (!footer) return;
 
-  function check() {
+  var hasScrolled = false;
+
+  function nearBottom() {
     var scrolled = window.innerHeight + window.scrollY;
     var full = document.documentElement.scrollHeight;
-    // show when within 150px of the bottom, or if the page is too short to scroll
-    if (full - scrolled < 150) footer.classList.add('is-visible');
+    return full - scrolled < 150;
+  }
+
+  function pageCanScroll() {
+    return document.documentElement.scrollHeight > window.innerHeight + 10;
+  }
+
+  function check() {
+    if (!pageCanScroll()) {            // nothing to scroll: show it
+      footer.classList.add('is-visible');
+      return;
+    }
+    if (hasScrolled && nearBottom()) footer.classList.add('is-visible');
     else footer.classList.remove('is-visible');
   }
 
-  window.addEventListener('scroll', check, { passive: true });
+  window.addEventListener('scroll', function () {
+    hasScrolled = true;
+    check();
+  }, { passive: true });
   window.addEventListener('resize', check);
-  check();
+  window.addEventListener('load', check);   // run after images load so heights are correct
 })();
 </script>
 
