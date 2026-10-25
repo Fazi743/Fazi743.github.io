@@ -10,11 +10,7 @@ author_profile: true
 **Duration:** Sep 2025 – Present
 
 **Research Focus**
-- Large Language Models (LLMs)
-- Vision-Language Models (VLMs)
-- Model Quantization
-- Efficient Deep Learning
-- Lightweight Fine-Tuning
+- LLMs | VLMs | Model Quantization | Efficient Deep Learning | Lightweight Fine-Tuning
 
 ---
 
@@ -25,8 +21,4 @@ author_profile: true
 **Duration:** 2019 – 2023
 
 Relevant Areas:
-- Artificial Intelligence
-- Machine Learning
-- Deep Learning
-- Computer Vision
-- Data Science
+- Artificial Intelligence | ML | DL | CV | Data Science
