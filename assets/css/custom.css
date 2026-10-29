@@ -100,9 +100,13 @@ body > .page__footer{ flex-shrink:0; }
 }
 
 .btn-primary{ background:var(--accent); color:#fff !important; border:1px solid var(--accent); }
-.btn-primary:hover{
+/* .btn-primary:hover{
   background:#0052cc !important;
   transform:translateY(-2px);
+} */
+.btn-primary:hover{
+   background:var(--accent); 
+   color:#fff !important;
 }
 
 .btn-outline{ background:#fff; color:#333 !important; border:1px solid #d0d0d0; }
@@ -123,7 +127,7 @@ body > .page__footer{ flex-shrink:0; }
   border:1px solid rgba(0,0,0,.04);
   transition:.3s;
 }
-.stat:hover{ transform:translateY(-8px); }
+.stat:hover{ transform:translateY(-6px); }
 
 .stat-num{
   font-size:28px;
