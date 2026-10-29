@@ -152,11 +152,11 @@ body > .page__footer{ flex-shrink:0; }
 }
 
 /* ---------- Hero photo ---------- */
-.hero-right{ flex:0 0 380px; text-align:center; padding-top:10px; }
+.hero-right{ flex:0 0 380px; text-align:center; padding-top:8px; }
 
 .hero-right img{
-  width:320px;
-  height:320px;
+  width:310px;
+  height:310px;
   object-fit:cover;
   border-radius:50%;
   border:5px solid #fff;
