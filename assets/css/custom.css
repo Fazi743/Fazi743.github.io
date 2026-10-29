@@ -251,7 +251,14 @@ body > .page__footer{ flex-shrink:0; }
 .card .btn{ margin-top:12px; }
 
 /* ---------- Section ---------- */
-.section{ padding:20px 20px; max-width:1250px; margin:0 auto; }
+.section{
+  width:100%;
+  box-sizing:border-box;
+  max-width:1250px;
+  margin:0 auto;
+  padding:20px 20px;
+}
+/* .section{ padding:20px 20px; max-width:1250px; margin:0 auto; } */
 .section h2{ font-size:38px; margin-bottom:30px; }
 
 /* ---------- Footer ---------- */
