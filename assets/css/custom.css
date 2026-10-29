@@ -90,14 +90,14 @@ body > .page__footer{ flex-shrink:0; }
 .btn-outline{ background:#fff; color:#333 !important; border:1px solid #d0d0d0; }
 /* .btn-outline:hover{ border-color:var(--accent); color:var(--accent) !important; transform:translateY(-2px); } */
 .btn-outline:hover{
-  background:#f2f2f2 !important;     /* light grey */
+  background:#87CEFA !important;     /* light grey */
   border-color:var(--accent);
   color:var(--accent) !important;
   transform:translateY(-2px);
 }
 
 .btn-primary:hover{
-  background:#0052cc !important;     /* slightly darker blue */
+  background:#B0C4DE !important;     /* slightly darker blue */
   filter:none;
   transform:translateY(-2px);
 }
