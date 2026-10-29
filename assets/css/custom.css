@@ -216,7 +216,7 @@ body > .page__footer{ flex-shrink:0; }
   margin-right:6px;
   text-decoration:none;
 }
-.pill-row{ display:flex; flex-wrap:wrap; gap:12px; }
+.pill-row{ display:flex; flex-wrap:wrap; gap:15px; }
 .pill{
   display:inline-flex; align-items:center; gap:6px;
   background:var(--accent-soft);
