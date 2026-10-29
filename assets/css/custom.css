@@ -81,7 +81,7 @@ body > .page__footer{ flex-shrink:0; }
   max-width:760px;             /* total width of both rows */
 }
 
-.hero-actions{ margin-bottom:26px; }
+.hero-actions{ margin-bottom:18px; }
 
 .btn{
   display:inline-block;
@@ -120,7 +120,7 @@ body > .page__footer{ flex-shrink:0; }
 .stat{
   min-width:0;
   background:#fff;
-  padding:14px 8px;
+  padding:10px 8px;
   border-radius:16px;
   text-align:center;
   box-shadow:0 8px 24px rgba(0,0,0,.07);
@@ -130,11 +130,11 @@ body > .page__footer{ flex-shrink:0; }
 .stat:hover{ transform:translateY(-6px); }
 
 .stat-num{
-  font-size:28px;
+  font-size:24px;
   font-weight:800;
   line-height:1.1;
   color:var(--accent);
-  margin-bottom:4px;
+  margin-bottom:2px;
 }
 .stat-label{
   display:block;
