@@ -59,7 +59,7 @@ body > .page__footer{ flex-shrink:0; }
 }
 
 .hero h1{
-  font-size:54px;
+  font-size:50px;
   line-height:1.1;
   font-weight:800;
   color:#111;
@@ -97,7 +97,7 @@ body > .page__footer{ flex-shrink:0; }
   flex:0 1 auto;
   min-width:150px;
   background:#fff;
-  padding:18px 22px;
+  padding:13px 20px;
   border-radius:20px;
   text-align:center;
   box-shadow:0 8px 24px rgba(0,0,0,.07);
@@ -105,7 +105,7 @@ body > .page__footer{ flex-shrink:0; }
 }
 
 .stat-num{
-  font-size:34px;
+  font-size:20px;
   font-weight:800;
   line-height:1.1;
   color:var(--accent);
