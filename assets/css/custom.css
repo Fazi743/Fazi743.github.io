@@ -299,6 +299,7 @@ body > .page__footer{ flex-shrink:0; }
 .page__footer-copyright{
   margin:0;
   font-size:14px;
+  line-height:1.5;
   text-align:center;
 }
 
@@ -318,7 +319,6 @@ body > .page__footer{ flex-shrink:0; }
 .page__footer a:hover{ color:var(--accent) !important; }
 
 .page__footer-follow li{ padding:0; }
-.page__footer-copyright{ margin:4px 0 0; font-size:13px; line-height:1.5; }
 
 /* ---------- Freelance page: cards with image strip ---------- */
 .gallery{
@@ -398,11 +398,6 @@ body{ background:#fff; }
 .author__urls .fab,
 .author__urls .ai{ color:var(--accent); }
 
-/* keep the sidebar in view while scrolling long pages (desktop only) */
-@media(min-width:1024px){
-  .sidebar.sticky{ top:2em; }
-}
-
 /* ---------- Page content ---------- */
 .page__title{
   font-size:34px;
@@ -412,13 +407,11 @@ body{ background:#fff; }
   position:relative;
   margin-bottom:28px;
 }
-.page__title::after{
-  content:"";
-  position:absolute;
-  left:0; bottom:0;
-  width:64px; height:4px;
-  border-radius:4px;
-  background:linear-gradient(90deg,var(--accent),var(--accent-border));
+
+/* small left gap for the name, bio and links */
+.author__content,
+.author__urls-wrapper{
+  padding-left:5px;      /* increase for a bigger gap */
 }
 
 .page__content h2{
@@ -437,6 +430,8 @@ body{ background:#fff; }
 .page__content a:hover{ border-bottom-color:var(--accent); }
 
 .page__content strong{ color:#111; }
+
+.page__footer{ margin-left:300px; }
 
 @media(min-width:1024px){
 
@@ -458,9 +453,21 @@ body{ background:#fff; }
     /* padding-top is left to the theme so it clears the header */
   }
 
+  /* centre the avatar */
+   .author__avatar{
+     display:block;
+     text-align:center;
+     float:none;
+     width:100%;
+   }
+   .author__avatar img{
+     display:inline-block;
+   }
   /* content: start after the sidebar, left-aligned */
   #main{
     max-width:none !important;
+    width:calc(100% - 300%) !important;
+    box-sizing:border-box;
     margin:2em 0 0 300px !important;
     padding:0 40px !important;
   }
