@@ -434,8 +434,6 @@ body{ background:#fff; }
 
 .page__content strong{ color:#111; }
 
-.page__footer{ margin-left:300px; }
-
 @media(min-width:1024px){
 
   /* sidebar: full-height column from the left edge */
@@ -469,7 +467,7 @@ body{ background:#fff; }
   /* content: start after the sidebar, left-aligned */
   #main{
     max-width:none !important;
-    width:calc(100% - 300%) !important;
+    width:calc(100% - 300px) !important;
     box-sizing:border-box;
     margin:2em 0 0 300px !important;
     padding:0 40px !important;
@@ -484,6 +482,7 @@ body{ background:#fff; }
   }
 
   .page__inner-wrap{ width:100%; }
+  .page__footer{ margin-left:300px; }
 }
 
 /* ---------- Mobile ---------- */
