@@ -269,8 +269,8 @@ body > .page__footer{ flex-shrink:0; }
 .card:hover{ transform:translateY(-8px); }
 
 .card h2, .section > h2{ margin-top:0; }
-.card h3{ font-size:14px; margin:0 0 8px; }
-.card p{ font-size:11px; line-height:1.5; margin:0 0 6px; }
+.card h3{ font-size:15px; margin:0 0 8px; }
+.card p{ font-size:12px; line-height:1.5; margin:0 0 6px; }
 .card .btn{ margin-top:12px; }
 
 /* ---------- Section ---------- */
