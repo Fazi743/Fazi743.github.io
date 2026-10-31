@@ -189,6 +189,9 @@ body > .page__footer{ flex-shrink:0; }
 }
 
 .glance-card{ display:flex; flex-direction:column; }
+.glance--wide{
+  grid-column:1 / -1;     /* span both columns */
+}
 
 .section h2.card-title{
   font-size:26px;
