@@ -27,7 +27,7 @@ author_profile: true
   <div class="tl-card">
     <div class="tl-top">
       <h3 class="tl-title">Teaching Assistant</h3>
-      <span class="tl-date">📅 Mar 2026 – Present</span>
+      <span class="tl-date">📅 Mar 2026 – Aug 2026</span>
     </div>
     <div class="tl-org">🏛 Jeju National University, Jeju, South Korea</div>
     <p>Assisted in teaching undergraduate courses in <strong>Generative AI</strong> and <strong>Big Data Analysis &amp; Visualization</strong>, supporting both lectures and practical sessions.</p>
