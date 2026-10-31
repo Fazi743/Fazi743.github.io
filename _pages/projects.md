@@ -20,7 +20,7 @@ author_profile: true
 <div class="pcard">
   <div class="pcard__top">
     <span class="badge badge--review">● Under Review</span>
-    <span class="pcard__date">📅 2026</span>
+    <span class="pcard__date">📅 2025</span>
   </div>
   <h3 class="pcard__title">🤖 PlanRAG: Constraint-Aware LLM Agents for Decision Question Answering</h3>
   <div class="pcard__meta">🏛 Data-Centric Generative AI Lab, Jeju National University</div>
