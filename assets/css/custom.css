@@ -508,6 +508,21 @@ body{ background:#fff; }
   .about-section{ grid-template-columns:1fr; }
 }
 
+@media(max-width:700px){
+  .pcard, .tl-card, .edu-main{ padding:16px 16px 14px; }
+  .edu-foot{ padding:12px 16px 14px; }
+  .timeline{ padding-left:28px; }
+  .tl-dot{ left:-28px; }
+  .page__content .pcard__title,
+  .page__content .tl-title,
+  .page__content .edu-title{ font-size:18px; }
+  .page__title{ font-size:28px; }
+}
+
+@media(max-width:1023px){
+  .sidebar{ display:none !important; }
+}
+
 /* ---------- Project cards (Projects page) ---------- */
 .pcard{
   background:#fff;
