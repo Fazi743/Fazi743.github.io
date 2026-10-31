@@ -102,7 +102,7 @@ body > .page__footer{ flex-shrink:0; }
 .btn-primary{ 
    background:var(--accent); 
    color:#fff !important; 
-   border:1px solid #111; }
+   border:2px solid #111; }
 /* .btn-primary:hover{
   background:#0052cc !important;
   transform:translateY(-2px);
@@ -116,7 +116,7 @@ body > .page__footer{ flex-shrink:0; }
 .btn-outline{ 
    background:#fff; 
    color:#333 !important; 
-   border:1px solid #000; }
+   border:2px solid #000; }
 .btn-outline:hover{
   background:#f2f2f2 !important;
   border-color:#000;
