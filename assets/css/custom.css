@@ -414,13 +414,16 @@ body{ background:#fff; }
   padding-left:5px;      /* increase for a bigger gap */
 }
 
+/* less space between title and first heading / paragraph */
+.page__content > :first-child{ margin-top:0 !important; }
+
 .page__content h2{
   font-size:24px;
   font-weight:700;
   color:#111;
   border-bottom:1px solid #eee;
   padding-bottom:6px;
-  margin:36px 0 16px;
+  margin:22px 0 12px;
 }
 .page__content h3{ font-size:19px; font-weight:700; margin:24px 0 10px; }
 
