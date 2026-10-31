@@ -483,6 +483,11 @@ body{ background:#fff; }
   }
 
   .page__inner-wrap{ width:100%; }
+  .page__footer{
+    margin-left:0 !important;        /* back to full width */
+    position:relative !important;    /* needed for z-index to work */
+    z-index:50;                      /* above the fixed sidebar */
+  }
 }
 
 /* ---------- Mobile ---------- */
