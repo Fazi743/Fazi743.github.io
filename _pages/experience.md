@@ -12,7 +12,7 @@ author_profile: true
   <div class="tl-card">
     <div class="tl-top">
       <h3 class="tl-title">Graduate AI Researcher</h3>
-      <span class="tl-date">📅 2025 – Present</span>
+      <span class="tl-date">📅 Sep 2025 – Present</span>
     </div>
     <div class="tl-org">🏛 Data-Centric Generative AI Lab (DCAL), Jeju National University, South Korea</div>
     <ul>
