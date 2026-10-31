@@ -409,7 +409,7 @@ body{ background:#fff; }
 }
 
 /* small left gap for the name, bio and links */
-.author__content,
+.author__content{ text-align:center; }
 .author__urls-wrapper{
   padding-left:5px;      /* increase for a bigger gap */
 }
