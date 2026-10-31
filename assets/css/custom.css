@@ -733,3 +733,15 @@ body{ background:#fff; }
   .edu-date{ order:-1; }
 }
 
+/* ---------- Awards page: gold timeline variant ---------- */
+.timeline--gold::before{
+  background:linear-gradient(180deg,#f0b429,#fbe3a3);
+}
+.timeline--gold .tl-dot{
+  background:#f0b429;
+  box-shadow:0 0 0 3px #fbe3a3;
+}
+.timeline--gold .tl-date{ border-color:#f0d58a; color:#8a5a00; background:#fff9e8; }
+
+/* a bit of space between the two sections */
+.page__content .timeline + h2{ margin-top:40px; }
