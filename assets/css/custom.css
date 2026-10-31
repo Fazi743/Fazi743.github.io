@@ -438,6 +438,44 @@ body{ background:#fff; }
 
 .page__content strong{ color:#111; }
 
+@media(min-width:1024px){
+
+  /* sidebar: full-height column from the left edge */
+  .sidebar{
+    left:0;
+    top:0;
+    width:300px !important;
+    max-width:none !important;
+    height:100vh;
+    margin:0;
+    border-radius:0;
+    border:0;
+    border-right:1px solid #e3dff2;
+    box-shadow:none;
+    padding-left:26px;
+    padding-right:22px;
+    padding-bottom:30px;
+    /* padding-top is left to the theme so it clears the header */
+  }
+
+  /* content: start after the sidebar, left-aligned */
+  #main{
+    max-width:none !important;
+    margin:2em 0 0 300px !important;
+    padding:0 40px !important;
+  }
+
+  .page{
+    float:none !important;
+    width:100% !important;
+    max-width:1000px;
+    margin:0;
+    padding:0;
+  }
+
+  .page__inner-wrap{ width:100%; }
+}
+
 /* ---------- Mobile ---------- */
 @media(max-width:900px){
   .hero{ 
