@@ -296,6 +296,12 @@ body > .page__footer{ flex-shrink:0; }
   background:#222;
 }
 
+.page__footer-copyright{
+  margin:0;
+  font-size:14px;
+  text-align:center;
+}
+
 .page__footer footer{
   margin:0 auto;
   padding:10px 1em;                /* controls footer height */
