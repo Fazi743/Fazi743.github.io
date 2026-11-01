@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
@@ -10,7 +10,7 @@ author_profile: true
     <span class="pcard__date">📅 2025 – Present</span>
   </div>
   <h3 class="pcard__title">🧠 Sensitivity-aligned Mixed-precision Quantization and Low-rank Adaptation for LLMs</h3>
-  <div class="pcard__meta">🏛 Data-Centric Generative AI Lab, Jeju National University &nbsp;·&nbsp; Submitted to <em>Scientific Reports</em> (Springer Nature)</div>
+  <div class="pcard__meta">🏛 Data-Centric AI Lab, Jeju National University &nbsp;·&nbsp; Submitted to <em>Scientific Reports</em> (Springer Nature)</div>
   <p>Developed a novel adaptive mixed-bit quantization framework with Rank-Precision Co-Designed qLoRA+ to improve the efficiency of Large Language Model fine-tuning while preserving downstream performance.</p>
   <div class="tags">
     <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">Hugging Face Transformers</span><span class="tag">PEFT</span><span class="tag">Quantization</span>
@@ -23,7 +23,7 @@ author_profile: true
     <span class="pcard__date">📅 2025</span>
   </div>
   <h3 class="pcard__title">🤖 PlanRAG: Constraint-Aware LLM Agents for Decision Question Answering</h3>
-  <div class="pcard__meta">🏛 Data-Centric Generative AI Lab, Jeju National University</div>
+  <div class="pcard__meta">🏛 Data-Centric AI Lab, Jeju National University</div>
   <p>Investigated the impact of planning constraints on Large Language Model agents using the PlanRAG framework. Conducted extensive experiments to evaluate SQL generation, reasoning accuracy, and planning behavior.</p>
   <div class="tags">
     <span class="tag">Python</span><span class="tag">vLLM</span><span class="tag">Mistral</span><span class="tag">SQL</span><span class="tag">LLM Agents</span>
@@ -36,7 +36,7 @@ author_profile: true
     <span class="pcard__date">📅 2026 – Present</span>
   </div>
   <h3 class="pcard__title">👁 Cross-Lingual Vision-Language Models Evaluation</h3>
-  <div class="pcard__meta">🏛 Data-Centric Generative AI Lab, Jeju National University &nbsp;·&nbsp; Submitted to ACL Rolling Review (ARR)</div>
+  <div class="pcard__meta">🏛 Data-Centric AI Lab, Jeju National University &nbsp;·&nbsp; Submitted to ACL Rolling Review (ARR)</div>
   <p>Comparing CLIP-family and multilingual vision-language models to understand language-dependent performance, cross-lingual alignment and representation quality.</p>
   <div class="tags">
     <span class="tag">CLIP</span><span class="tag">OpenAI CLIP</span><span class="tag">SigLIP</span><span class="tag">AltCLIP</span><span class="tag">M-CLIP</span>
