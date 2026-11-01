@@ -15,13 +15,18 @@ author_profile: true
     <h3 class="ccard-title">Email</h3>
     <div class="ccard-row">
       <span class="ccard-label">University</span>
-      <a class="copy-email" data-email="faizan.bukhari@stu.jejunu.ac.kr" href="mailto:faizan.bukhari@stu.jejunu.ac.kr" title="Click to copy"><span>faizan.bukhari@stu.jejunu.ac.kr</span></a>
+      <span class="email-line">
+        <a href="mailto:faizan.bukhari@stu.jejunu.ac.kr">faizan.bukhari@stu.jejunu.ac.kr</a>
+        <button class="copy-btn" data-email="faizan.bukhari@stu.jejunu.ac.kr" title="Copy"><i class="far fa-copy"></i><span>Copy</span></button>
+      </span>
     </div>
     <div class="ccard-row">
       <span class="ccard-label">Personal</span>
-      <a class="copy-email" data-email="faizanbukhari8815@gmail.com" href="mailto:faizanbukhari8815@gmail.com" title="Click to copy"><span>faizanbukhari8815@gmail.com</span></a>
+      <span class="email-line">
+        <a href="mailto:faizanbukhari8815@gmail.com">faizanbukhari8815@gmail.com</a>
+        <button class="copy-btn" data-email="faizanbukhari8815@gmail.com" title="Copy"><i class="far fa-copy"></i><span>Copy</span></button>
+      </span>
     </div>
-    <p class="ccard-hint">Click an address to copy it.</p>
   </div>
 
   <div class="ccard">
