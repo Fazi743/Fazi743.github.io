@@ -221,5 +221,3 @@ author_profile: true
   </div>
 </div>
 </div>
-</div>
-</div>
