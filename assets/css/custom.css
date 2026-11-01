@@ -235,6 +235,22 @@ body > .page__footer{ flex-shrink:0; }
 }
 .pill:hover{ background:var(--accent); color:#fff !important; }
 
+/* brand colours for profile icons */
+/* .pill .ai-google-scholar{ color:#4285f4; }   /* Google blue */
+/* .pill .fa-orcid{          color:#a6ce39; }   /* ORCID green */ 
+/* .pill .fa-researchgate{   color:#00ccbb; }   /* ResearchGate teal */
+/* .pill .fa-github{         color:#181717; }   /* GitHub black */
+/* .pill .fa-linkedin{       color:#0a66c2; }   /* LinkedIn blue */
+
+.pill .ai-google-scholar, .author__urls .ai-google-scholar{ color:#4285f4; } /* Google blue */
+.pill .fa-orcid,          .author__urls .fa-orcid{          color:#a6ce39; } /* ORCID green */
+.pill .fa-researchgate,   .author__urls .fa-researchgate{   color:#00ccbb; } /* ResearchGate teal */
+.pill .fa-github,         .author__urls .fa-github{         color:#181717; } /* GitHub black */
+.pill .fa-linkedin,       .author__urls .fa-linkedin{       color:#0a66c2; } /* LinkedIn blue */
+
+/* keep them readable when the pill turns blue on hover */
+.pill:hover i{ color:#fff; }
+
 .glance-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
