@@ -14,7 +14,7 @@ author_profile: true
       <h3 class="tl-title">Graduate AI Researcher</h3>
       <span class="tl-date">📅 Sep 2025 – Present</span>
     </div>
-    <div class="tl-org">🏛 Data-Centric Generative AI Lab (DCAL), Jeju National University, South Korea</div>
+    <div class="tl-org">🏛 Data-Centric AI Lab (DCAL), Jeju National University, South Korea</div>
     <ul>
       <li>Conducting research on efficient and scalable foundation models with a focus on resource-constrained AI systems.</li>
       <li>Working on LLM quantization, parameter-efficient fine-tuning, and cross-lingual vision-language model evaluation.</li>
