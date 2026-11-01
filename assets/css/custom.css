@@ -762,12 +762,14 @@ body{ background:#fff; }
 /* a bit of space between the two sections */
 .page__content .timeline + h2{ margin-top:40px; }
 
-/* ---------- Certifications grid ---------- */
+/* ---------- Certifications ---------- */
+.page__content h3{ margin-top:28px; }
+
 .cert-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
   gap:20px;
-  margin:0 0 36px;
+  margin:0 0 32px;
 }
 
 .cert{
@@ -778,13 +780,18 @@ body{ background:#fff; }
   border-radius:14px;
   overflow:hidden;
   box-shadow:0 8px 24px rgba(0,0,0,.05);
-  text-decoration:none !important;
-  border-bottom:1px solid #e6e6ee !important;   /* cancel page link underline */
   transition:.25s;
 }
 .cert:hover{ transform:translateY(-4px); box-shadow:0 14px 32px rgba(0,0,0,.09); }
 
-.cert img{
+.cert--wide{ grid-column:1 / -1; flex-direction:row; }
+.cert--wide .cert-img{ flex:0 0 45%; }
+.cert--wide .cert-img img{ aspect-ratio:auto; height:100%; }
+.cert--wide .cert-body{ justify-content:center; }
+.cert--wide .cert-name{ font-size:17px; }
+
+.cert-img{ display:block; border:0 !important; }
+.cert-img img{
   width:100%;
   aspect-ratio:4 / 3;
   object-fit:cover;
@@ -794,22 +801,98 @@ body{ background:#fff; }
   display:block;
 }
 
-.cert-name{
-  padding:12px 14px 2px;
-  font-size:14.5px;
-  font-weight:600;
-  color:#111;
-  line-height:1.35;
+.cert-body{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  padding:12px 14px 14px;
 }
-.cert-org{
-  padding:0 14px 12px;
+.cert-name{ font-size:14.5px; font-weight:600; color:#111; line-height:1.35; }
+.cert-meta{ font-size:12.5px; color:#666; }
+.page__content .cert-verify{
+  align-self:flex-start;
+  margin-top:4px;
   font-size:12.5px;
-  color:var(--accent);
   font-weight:600;
-  letter-spacing:.4px;
+  color:var(--accent);
+  border:0;
 }
+.page__content .cert-verify:hover{ text-decoration:underline; }
+
+/* cards without an image (DataCamp etc.) */
+.cert--noimg{ border-left:4px solid var(--accent); }
+.cert--noimg .cert-body{ padding:16px; }
 
 @media(max-width:700px){
   .cert-grid{ grid-template-columns:repeat(2,1fr); gap:12px; }
+  .cert--wide{ flex-direction:column; }
+  .cert--wide .cert-img{ flex:none; }
+  .cert--wide .cert-img img{ aspect-ratio:4 / 3; }
+}
+/* ---------- Certifications ---------- */
+.page__content h3{ margin-top:28px; }
+
+.cert-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+  gap:20px;
+  margin:0 0 32px;
 }
 
+.cert{
+  display:flex;
+  flex-direction:column;
+  background:#fff;
+  border:1px solid #e6e6ee;
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 8px 24px rgba(0,0,0,.05);
+  transition:.25s;
+}
+.cert:hover{ transform:translateY(-4px); box-shadow:0 14px 32px rgba(0,0,0,.09); }
+
+.cert--wide{ grid-column:1 / -1; flex-direction:row; }
+.cert--wide .cert-img{ flex:0 0 45%; }
+.cert--wide .cert-img img{ aspect-ratio:auto; height:100%; }
+.cert--wide .cert-body{ justify-content:center; }
+.cert--wide .cert-name{ font-size:17px; }
+
+.cert-img{ display:block; border:0 !important; }
+.cert-img img{
+  width:100%;
+  aspect-ratio:4 / 3;
+  object-fit:cover;
+  object-position:top;
+  background:#f4f4f8;
+  border-bottom:1px solid #eee;
+  display:block;
+}
+
+.cert-body{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  padding:12px 14px 14px;
+}
+.cert-name{ font-size:14.5px; font-weight:600; color:#111; line-height:1.35; }
+.cert-meta{ font-size:12.5px; color:#666; }
+.page__content .cert-verify{
+  align-self:flex-start;
+  margin-top:4px;
+  font-size:12.5px;
+  font-weight:600;
+  color:var(--accent);
+  border:0;
+}
+.page__content .cert-verify:hover{ text-decoration:underline; }
+
+/* cards without an image (DataCamp etc.) */
+.cert--noimg{ border-left:4px solid var(--accent); }
+.cert--noimg .cert-body{ padding:16px; }
+
+@media(max-width:700px){
+  .cert-grid{ grid-template-columns:repeat(2,1fr); gap:12px; }
+  .cert--wide{ flex-direction:column; }
+  .cert--wide .cert-img{ flex:none; }
+  .cert--wide .cert-img img{ aspect-ratio:4 / 3; }
+}
