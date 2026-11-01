@@ -685,7 +685,8 @@ body{ background:#fff; }
   flex:0 0 56px;
   height:56px;
   border-radius:14px;
-  background:linear-gradient(135deg,var(--accent),#7aa6ff);
+  /* background:linear-gradient(135deg,var(--accent),#7aa6ff); */
+  background:linear-gradient(135deg, #808080, #c0c0c0);
   display:flex;
   align-items:center;
   justify-content:center;
