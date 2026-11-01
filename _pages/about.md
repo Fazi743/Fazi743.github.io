@@ -7,7 +7,7 @@ author_profile: true
 
 ## Hello, I'm Syed Faizan Hussain Shah 👋
 
-I am a Master's student in Artificial Intelligence at **Jeju National University, South Korea**, where I conduct research in the **Data-Centric Generative AI Lab (DCAL)**.
+I am a Master's student in Artificial Intelligence at **Jeju National University, South Korea**, where I conduct research in the **Data-Centric AI Lab (DCAL)**.
 
 My research focuses on developing **efficient and scalable Large Language Models (LLMs)** and **Vision-Language Models (VLMs)** through model quantization, lightweight fine-tuning, and parameter-efficient learning techniques. My goal is to make advanced AI systems more practical for deployment on resource-constrained devices while maintaining high performance.
 
