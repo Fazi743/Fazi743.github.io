@@ -27,7 +27,7 @@ author_profile: true
   <div class="ccard">
     <div class="ccard-icon">📍</div>
     <h3 class="ccard-title">Location</h3>
-    <p>Data-Centric Generative AI Lab (DCAL)<br>
+    <p>Data-Centric AI Lab (DCAL)<br>
     Dept. of Artificial Intelligence<br>
     Jeju National University<br>
     Jeju, South Korea</p>
