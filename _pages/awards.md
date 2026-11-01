@@ -59,7 +59,7 @@ layout: single
       <span class="tl-date">2025 – Present</span>
     </div>
     <div class="tl-org">🏛 Jeju National University, South Korea</div>
-    <p>Awarded a graduate scholarship to pursue a Master's degree in Artificial Intelligence. In addition, I receive <strong>research funding from my supervising professor</strong> through the <strong>Data-Centric Generative AI Lab (DCAL)</strong>, supporting my studies and research on efficient LLMs, Vision-Language Models, and AI for robotics.</p>
+    <p>Awarded a graduate scholarship to pursue a Master's degree in Artificial Intelligence. In addition, I receive <strong>research funding from my supervising professor</strong> through the <strong>Data-Centric AI Lab (DCAL)</strong>, supporting my studies and research on efficient LLMs, Vision-Language Models, and AI for robotics.</p>
   </div>
 </div>
 
@@ -72,6 +72,18 @@ layout: single
     </div>
     <div class="tl-org">🏛 Government of Pakistan · COMSATS University Islamabad, Attock Campus</div>
     <p>A fully funded merit- and need-based scholarship that supported my Bachelor of Science in Computer Science, recognizing academic performance and providing financial assistance throughout my undergraduate studies.</p>
+  </div>
+</div>
+
+<div class="tl-item">
+  <div class="tl-dot"></div>
+  <div class="tl-card">
+    <div class="tl-top">
+      <h3 class="tl-title">PEEF Scholarship</h3>
+      <span class="tl-date">2016 – 2018</span>
+    </div>
+    <div class="tl-org">🏛 Government of Punjab, Pakistan</div>
+    <p>A funded merit-based scholarship that supported my Intermediate (FSc Pre-Engineering), recognizing academic performance and providing financial assistance for my studies.</p>
   </div>
 </div>
 
