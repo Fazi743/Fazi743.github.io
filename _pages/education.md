@@ -13,7 +13,7 @@ author_profile: true
         <span class="edu-date">Sep 2025 – Present</span>
       </div>
       <div class="edu-org"><a href="https://www.jejunu.ac.kr" target="_blank" rel="noopener">Jeju National University</a>, Jeju, South Korea</div>
-      <div class="edu-note">🏛 Data-Centric Generative AI Lab (DCAL), Dept. of Artificial Intelligence</div>
+      <div class="edu-note">🏛 Data-Centric AI Lab (DCAL), Dept. of Artificial Intelligence</div>
     </div>
   </div>
   <div class="edu-foot">
