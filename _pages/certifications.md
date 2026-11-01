@@ -165,34 +165,39 @@ author_profile: true
 ## DataCamp
 
 <div class="cert-grid">
-<div class="cert cert--noimg">
+<div class="cert">
+  <a class="cert-img" href="/images/certifications/datacamp-introduction-to-sql.jpg" target="_blank" rel="noopener"><img src="/images/certifications/datacamp-introduction-to-sql.jpg" alt="Introduction to SQL certificate" loading="lazy"></a>
   <div class="cert-body">
     <span class="cert-name">Introduction to SQL</span>
-    <span class="cert-meta">DataCamp</span>
+    <span class="cert-meta">DataCamp · 2 hrs · Sep 2022</span>
   </div>
 </div>
-<div class="cert cert--noimg">
+<div class="cert">
+  <a class="cert-img" href="/images/certifications/datacamp-intermediate-sql.jpg" target="_blank" rel="noopener"><img src="/images/certifications/datacamp-intermediate-sql.jpg" alt="Intermediate SQL certificate" loading="lazy"></a>
   <div class="cert-body">
     <span class="cert-name">Intermediate SQL</span>
-    <span class="cert-meta">DataCamp</span>
+    <span class="cert-meta">DataCamp · 4 hrs · Oct 2022</span>
   </div>
 </div>
-<div class="cert cert--noimg">
+<div class="cert">
+  <a class="cert-img" href="/images/certifications/datacamp-joining-data-in-sql.jpg" target="_blank" rel="noopener"><img src="/images/certifications/datacamp-joining-data-in-sql.jpg" alt="Joining Data in SQL certificate" loading="lazy"></a>
   <div class="cert-body">
     <span class="cert-name">Joining Data in SQL</span>
-    <span class="cert-meta">DataCamp</span>
+    <span class="cert-meta">DataCamp · 4 hrs · Dec 2022</span>
   </div>
 </div>
-<div class="cert cert--noimg">
+<div class="cert">
+  <a class="cert-img" href="/images/certifications/datacamp-introduction-to-python.jpg" target="_blank" rel="noopener"><img src="/images/certifications/datacamp-introduction-to-python.jpg" alt="Introduction to Python certificate" loading="lazy"></a>
   <div class="cert-body">
     <span class="cert-name">Introduction to Python</span>
-    <span class="cert-meta">DataCamp</span>
+    <span class="cert-meta">DataCamp · 4 hrs · Oct 2022</span>
   </div>
 </div>
-<div class="cert cert--noimg">
+<div class="cert">
+  <a class="cert-img" href="/images/certifications/datacamp-introduction-to-data-science.jpg" target="_blank" rel="noopener"><img src="/images/certifications/datacamp-introduction-to-data-science.jpg" alt="Introduction to Data Science in Python certificate" loading="lazy"></a>
   <div class="cert-body">
-    <span class="cert-name">Introduction to Data Science</span>
-    <span class="cert-meta">DataCamp</span>
+    <span class="cert-name">Introduction to Data Science in Python</span>
+    <span class="cert-meta">DataCamp · 4 hrs · Oct 2022</span>
   </div>
 </div>
 </div>
@@ -200,16 +205,21 @@ author_profile: true
 ## Other
 
 <div class="cert-grid">
-<div class="cert cert--noimg">
+<div class="cert">
+  <a class="cert-img" href="/images/certifications/e-rozgaar-mobile-app-development-react-native.jpg" target="_blank" rel="noopener"><img src="/images/certifications/e-rozgaar-mobile-app-development-react-native.jpg" alt="Mobile App Development (React Native) — Course Track certificate" loading="lazy"></a>
   <div class="cert-body">
-    <span class="cert-name">Mobile App Development (React Native)</span>
-    <span class="cert-meta">E-Rozgaar</span>
+    <span class="cert-name">Mobile App Development (React Native) — Course Track</span>
+    <span class="cert-meta">e-Rozgaar · PITB, Government of the Punjab · Sep–Nov 2023</span>
   </div>
 </div>
-<div class="cert cert--noimg">
+<div class="cert">
+  <a class="cert-img" href="/images/certifications/digiskills-freelancing.jpg" target="_blank" rel="noopener"><img src="/images/certifications/digiskills-freelancing.jpg" alt="Freelancing certificate" loading="lazy"></a>
   <div class="cert-body">
     <span class="cert-name">Freelancing</span>
-    <span class="cert-meta">DigiSkills</span>
+    <span class="cert-meta">DigiSkills.pk · Virtual University &amp; Ignite · Jan 2021</span>
+    <a class="cert-verify" href="https://digiskills.pk/verify" target="_blank" rel="noopener">Verify (ID FJ7YMYPQ5) ↗</a>
   </div>
+</div>
+</div>
 </div>
 </div>
