@@ -61,17 +61,6 @@ Alongside my research I work as a freelancer, mainly for academics and researche
 
 <div class="card">
   <div class="gallery">
-    <a href="/images/freelance/opioid-1.png" target="_blank"><img src="/images/freelance/opioid-1.png" alt="Opioid pathways flowchart"></a>
-    <a href="/images/freelance/opioid-2.png" target="_blank"><img src="/images/freelance/opioid-2.png" alt="Opioid pathways flowchart detail"></a>
-  </div>
-  <h3>Opioid Use Pathways & Outcomes Flowchart</h3>
-  <p><strong>Need:</strong> a research and presentation diagram covering medical and illicit opioid use, dependence, re-use, overdose, and long-term health and social outcomes.</p>
-  <p><strong>Delivered:</strong> a clean multi-pathway flowchart in an editable, high-resolution format, with a fast turnaround.</p>
-  <p><em>Flowchart design · Medical research visuals</em></p>
-</div>
-
-<div class="card">
-  <div class="gallery">
     <a href="/images/freelance/scientific-figure-1.png" target="_blank"><img src="/images/freelance/scientific-figure-1.png" alt="Scientific figure"></a>
   </div>
   <h3>Scientific Figure for a Research Paper</h3>
