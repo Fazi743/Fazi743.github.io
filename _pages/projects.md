@@ -6,6 +6,19 @@ author_profile: true
 
 <div class="pcard">
   <div class="pcard__top">
+    <span class="badge badge--ongoing">● Ongoing</span>
+    <span class="pcard__date">📅 2026 – Present</span>
+  </div>
+  <h3 class="pcard__title">👁 Cross-Lingual Vision-Language Models Evaluation</h3>
+  <div class="pcard__meta">🏛 Data-Centric AI Lab, Jeju National University &nbsp;·&nbsp; Submitted to ACL Rolling Review (ARR)</div>
+  <p>Comparing CLIP-family and multilingual vision-language models to understand language-dependent performance, cross-lingual alignment and representation quality.</p>
+  <div class="tags">
+    <span class="tag">CLIP</span><span class="tag">OpenAI CLIP</span><span class="tag">SigLIP</span><span class="tag">AltCLIP</span><span class="tag">M-CLIP</span>
+  </div>
+</div>
+
+<div class="pcard">
+  <div class="pcard__top">
     <span class="badge badge--review">● Under Review</span>
     <span class="pcard__date">📅 2025 – Present</span>
   </div>
@@ -27,19 +40,6 @@ author_profile: true
   <p>Investigated the impact of planning constraints on Large Language Model agents using the PlanRAG framework. Conducted extensive experiments to evaluate SQL generation, reasoning accuracy, and planning behavior.</p>
   <div class="tags">
     <span class="tag">Python</span><span class="tag">vLLM</span><span class="tag">Mistral</span><span class="tag">SQL</span><span class="tag">LLM Agents</span>
-  </div>
-</div>
-
-<div class="pcard">
-  <div class="pcard__top">
-    <span class="badge badge--ongoing">● Ongoing</span>
-    <span class="pcard__date">📅 2026 – Present</span>
-  </div>
-  <h3 class="pcard__title">👁 Cross-Lingual Vision-Language Models Evaluation</h3>
-  <div class="pcard__meta">🏛 Data-Centric AI Lab, Jeju National University &nbsp;·&nbsp; Submitted to ACL Rolling Review (ARR)</div>
-  <p>Comparing CLIP-family and multilingual vision-language models to understand language-dependent performance, cross-lingual alignment and representation quality.</p>
-  <div class="tags">
-    <span class="tag">CLIP</span><span class="tag">OpenAI CLIP</span><span class="tag">SigLIP</span><span class="tag">AltCLIP</span><span class="tag">M-CLIP</span>
   </div>
 </div>
 
