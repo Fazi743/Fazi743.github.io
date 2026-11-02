@@ -60,7 +60,7 @@ author_profile: true
       <li>Trustworthy and reliable AI</li>
       <li>Computer vision and intelligent systems</li>
     </ul>
-    <a class="btn btn-outline" href="/research/">View Research →</a>
+    <a class="link-arrow" href="/research/">View Research →</a>
   </div>
 
   <div class="ccard">
