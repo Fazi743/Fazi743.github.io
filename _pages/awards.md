@@ -38,7 +38,7 @@ layout: single
   <div class="tl-card">
     <div class="tl-top">
       <h3 class="tl-title">Certificate of Participation</h3>
-      <span class="tl-date">IEEE</span>
+      <span class="tl-date">2024</span>
     </div>
     <div class="tl-org">🏛 IEEE Authorship and Open Access Symposium</div>
     <p>Awarded for participating in the symposium <em>Tips and best practices to get published, from IEEE editors</em>.</p>
