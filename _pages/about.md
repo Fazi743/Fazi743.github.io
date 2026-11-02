@@ -23,9 +23,25 @@ My long-term vision is to contribute to the next generation of efficient foundat
 
 My research journey has evolved from computer science and machine learning toward efficient foundation models:
 
-**Computer Science → Machine Learning → Computer Vision → Medical AI → Railway Infrastructure AI → Point-Cloud Intelligence → Large Language Models → Vision-Language Models → Model Quantization → Efficient AI → Robotics**
+<div class="journey">
+  <span class="step">Computer Science</span>
+  <span class="step">Machine Learning</span>
+  <span class="step">Computer Vision</span>
+  <span class="step">Medical AI</span>
+  <span class="step">Railway Infrastructure AI</span>
+  <span class="step">Point-Cloud Intelligence</span>
+  <span class="step">Large Language Models</span>
+  <span class="step">Vision-Language Models</span>
+  <span class="step">Model Quantization</span>
+  <span class="step">Efficient AI</span>
+  <span class="step step--now">Robotics</span>
+</div>
 
 ## Research Vision
-Building efficient foundation models that bring state-of-the-art AI closer to real-world deployment.
+
+<div class="vision">
+  <div class="vision-icon">🎯</div>
+  <p>Building efficient foundation models that bring state-of-the-art AI closer to real-world deployment.</p>
+</div>
  
 Thank you for visiting my website!
