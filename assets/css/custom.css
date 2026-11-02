@@ -345,6 +345,58 @@ body > .page__footer{ flex-shrink:0; }
 
 .page__footer-follow li{ padding:0; }
 
+/* ---------- About: research journey chain ---------- */
+.journey{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:8px 0;
+  margin:12px 0 10px;
+}
+.step{
+  display:inline-block;
+  background:#fff;
+  border:1px solid #d9d9e3;
+  border-radius:999px;
+  padding:6px 14px;
+  font-size:14px;
+  font-weight:600;
+  color:#333;
+}
+.step + .step::before{            /* arrow between steps */
+  content:"→";
+  display:inline-block;
+  margin:0 8px 0 -6px;
+  color:var(--accent);
+  font-weight:700;
+}
+.step--now{                        /* current focus highlighted */
+  background:var(--accent);
+  border-color:var(--accent);
+  color:#fff;
+}
+
+/* ---------- About: research vision callout ---------- */
+.vision{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  background:var(--accent-soft);
+  border:1px solid var(--accent-border);
+  border-left:5px solid var(--accent);
+  border-radius:14px;
+  padding:18px 22px;
+  margin:12px 0 24px;
+}
+.vision-icon{ font-size:28px; flex-shrink:0; }
+.page__content .vision p{
+  margin:0;
+  font-size:18px;
+  font-weight:600;
+  line-height:1.55;
+  color:#111;
+}
+
 /* ---------- Freelance page: cards with image strip ---------- */
 .gallery{
   display:flex;
