@@ -98,6 +98,6 @@ Alongside my research I work as a freelancer, mainly for academics and researche
 </div>
 
 <p style="text-align:center; margin-top:40px;">
-  <a class="btn" href="https://www.fiverr.com/users/s_faizan_h_shah/portfolio" target="_blank" rel="noopener">View full portfolio on Fiverr →</a>
+  <a class=""btn btn-primary"" href="https://www.fiverr.com/users/s_faizan_h_shah/portfolio" target="_blank" rel="noopener">View full portfolio on Fiverr →</a>
 </p>
 
