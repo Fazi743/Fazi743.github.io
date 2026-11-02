@@ -672,6 +672,86 @@ body{ background:#fff; }
   .rgrid{ grid-template-columns:1fr; }
 }
 
+/* ---------- Publications (selected) ---------- */
+.page__content .pub-intro{ font-size:16px; color:#444; margin:0 0 22px; }
+.page__content .pub-intro a{ color:var(--accent); font-weight:600; }
+
+.pub-list{ display:flex; flex-direction:column; gap:18px; }
+
+.pub{
+  display:flex;
+  gap:16px;
+  background:#fff;
+  border:1px solid #e6e6ee;
+  border-left:5px solid var(--accent);
+  border-radius:16px;
+  padding:18px 22px;
+  box-shadow:0 8px 24px rgba(0,0,0,.05);
+  transition:.25s;
+}
+.pub:hover{ transform:translateY(-3px); box-shadow:0 14px 32px rgba(0,0,0,.08); }
+
+.pub-num{
+  flex:0 0 40px; height:40px;
+  border-radius:50%;
+  background:var(--accent);
+  color:#fff;
+  font-weight:800;
+  font-size:16px;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 6px 14px rgba(0,102,255,.25);
+}
+
+.pub-body{ flex:1; min-width:0; }
+
+.pub-meta{
+  display:flex; flex-wrap:wrap; align-items:center; gap:8px 10px;
+  margin-bottom:6px;
+  font-size:14px; color:#666;
+}
+.pub-type, .pub-status{
+  display:inline-block;
+  padding:2px 10px;
+  border-radius:999px;
+  font-size:11.5px;
+  font-weight:700;
+  letter-spacing:.6px;
+  text-transform:uppercase;
+}
+.pub-type--journal{ background:var(--accent-soft); color:var(--accent); border:1px solid var(--accent-border); }
+.pub-type--conf{    background:#f1ecfb; color:#6b3fd1; border:1px solid #d9ccf3; }
+.pub-status--review{ background:#fff5e6; color:#b36b00; border:1px solid #f4d9a8; }
+.pub-status--award{  background:#fff9e8; color:#8a5a00; border:1px solid #f0d58a; text-transform:none; }
+
+.page__content .pub-title{
+  font-size:18px;
+  font-weight:700;
+  color:#111;
+  line-height:1.35;
+  margin:0 0 6px;
+}
+.page__content .pub-authors{ font-size:15px; color:#555; margin:0; }
+.page__content .pub-authors strong{ color:var(--accent); }
+
+.pub-more{
+  margin-top:28px;
+  padding:22px 24px;
+  background:var(--accent-soft);
+  border:1px solid var(--accent-border);
+  border-radius:16px;
+  text-align:center;
+}
+.page__content .pub-more p{ font-size:16px; color:#333; margin:0 0 12px; }
+.page__content .pub-more .btn{ border-bottom:2px solid #111; }
+.page__content .pub-more .btn i{ margin-right:6px; }
+
+@media(max-width:600px){
+  .pub{ padding:14px 16px; gap:12px; }
+  .pub-num{ flex-basis:32px; height:32px; font-size:14px; }
+  .page__content .pub-title{ font-size:16px; }
+}
+
+
 /* ---------- Project cards (Projects page) ---------- */
 .pcard{
   background:#fff;
