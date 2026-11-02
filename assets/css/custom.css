@@ -339,7 +339,7 @@ body > .page__footer{ flex-shrink:0; }
 .page__footer strong,
 .page__footer .fas,
 .page__footer .fab,
-.page__footer .far{ color:var(--global-text-color-light, #666) !important; }
+.page__footer .far{ color:var(--global-text-color-light, #333) !important; }
 
 .page__footer a:hover{ color:var(--accent) !important; }
 
