@@ -1,36 +1,81 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p class="pub-intro">Selected publications. For the complete and up-to-date list, see my
+<a href="https://scholar.google.com/citations?user=D_xqBaoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a>.</p>
 
-{% include base_path %}
+<div class="pub-list">
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="pub">
+  <div class="pub-num">1</div>
+  <div class="pub-body">
+    <div class="pub-meta">
+      <span class="pub-type pub-type--journal">Journal</span>
+      <span class="pub-status pub-status--review">Under Review</span>
+      <span class="pub-venue">2026 • Neural Computing and Applications</span>
+    </div>
+    <h3 class="pub-title">Attention-Aware Adaptive Block-Wise Quantization with Rank-Precision Co-Designed qLoRA+ for Efficient LLM Fine-Tuning</h3>
+    <p class="pub-authors"><strong>Syed Faizan Hussain Shah</strong>, et al.</p>
+  </div>
+</div>
 
+<div class="pub">
+  <div class="pub-num">2</div>
+  <div class="pub-body">
+    <div class="pub-meta">
+      <span class="pub-type pub-type--conf">Conference</span>
+      <span class="pub-status pub-status--award">🏆 Best Paper Award</span>
+      <span class="pub-venue">2026 • 12th International Conference on Internet of Things and Convergence (IoTCon)</span>
+    </div>
+    <h3 class="pub-title">Preliminary Study on Mixed-Bit Quantization and Adaptive qLoRA⁺ Fine-Tuning for Efficient LLM</h3>
+    <p class="pub-authors"><strong>Syed Faizan Hussain Shah</strong>, et al.</p>
+  </div>
+</div>
 
+<div class="pub">
+  <div class="pub-num">3</div>
+  <div class="pub-body">
+    <div class="pub-meta">
+      <span class="pub-type pub-type--journal">Journal</span>
+      <span class="pub-status pub-status--review">Submitted</span>
+      <span class="pub-venue">2026 • International Journal on Advanced Science, Engineering and Information Technology</span>
+    </div>
+    <h3 class="pub-title">Empirical Study of Constraint Effects in PlanRAG-Style LLM Agents for Decision QA</h3>
+    <p class="pub-authors"><strong>Syed Faizan Hussain Shah</strong>, et al.</p>
+  </div>
+</div>
 
+<div class="pub">
+  <div class="pub-num">4</div>
+  <div class="pub-body">
+    <div class="pub-meta">
+      <span class="pub-type pub-type--journal">Journal</span>
+      <span class="pub-venue">2025 • IET Intelligent Transport Systems</span>
+    </div>
+    <h3 class="pub-title">TrinityNet: A Novel Cross-Modality Generative Reasoning Framework for Zero-Label Railway Fastener Tightness Evaluation</h3>
+    <p class="pub-authors">… , <strong>Syed Faizan Hussain Shah</strong>, et al.</p>
+  </div>
+</div>
+
+<div class="pub">
+  <div class="pub-num">5</div>
+  <div class="pub-body">
+    <div class="pub-meta">
+      <span class="pub-type pub-type--journal">Journal</span>
+      <span class="pub-venue">2025 • Applied Intelligence</span>
+    </div>
+    <h3 class="pub-title">DA-NGF: A Domain-Adaptive Neurogenerative Framework for Few-Shot Railway Fastener Defect Synthesis and Transferable Representation Learning</h3>
+    <p class="pub-authors">… , <strong>Syed Faizan Hussain Shah</strong>, et al.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="pub-more">
+  <p>8+ journal articles and 4+ conference papers in total.</p>
+  <a class="btn btn-primary" href="https://scholar.google.com/citations?user=D_xqBaoAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> See all on Google Scholar</a>
+</div>
