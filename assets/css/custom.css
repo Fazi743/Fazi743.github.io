@@ -317,7 +317,8 @@ body > .page__footer{ flex-shrink:0; }
   animation:none !important;
   margin-top:auto !important;      /* pushes footer to the bottom */
   padding:0;
-  background:#222;
+  background:var(--global-bg-color, #fff);          /* same as header: white in light, dark in dark mode */
+  border-top:1px solid var(--global-border-color, #e6e6ee);
 }
 
 .page__footer-copyright{
@@ -338,7 +339,7 @@ body > .page__footer{ flex-shrink:0; }
 .page__footer strong,
 .page__footer .fas,
 .page__footer .fab,
-.page__footer .far{ color:#fff !important; }
+.page__footer .far{ color:var(--global-text-color-light, #666) !important; }
 
 .page__footer a:hover{ color:var(--accent) !important; }
 
