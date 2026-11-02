@@ -34,7 +34,6 @@ My research journey has evolved from computer science and machine learning towar
   <span class="step">Vision-Language Models</span>
   <span class="step">Model Quantization</span>
   <span class="step">Efficient AI</span>
-  <span class="step step--now">Robotics</span>
 </div>
 
 ## Research Vision
