@@ -38,5 +38,8 @@ main:
   - title: "Freelance Portfolio"
     url: /freelance/
 
+  - title: "Activities"
+    url: /activities/
+
   - title: "Contact"
     url: /contact/
