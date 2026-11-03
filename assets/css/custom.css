@@ -35,18 +35,17 @@ body > .page__footer{ flex-shrink:0; }
 .masthead__inner-wrap{ padding:0.6em 1em; }          /* was ~1em: lowers bar height */
 
 .greedy-nav a{
-  font-size:15.5px;                                     /* nav link size (theme is ~18px) */
-  padding:0 0.55em;
-  letter-spacing:0;
+  margin:0 0.45rem;        /* was 1rem each side */
+  padding:0.5rem 0.15rem;
+  font-size:15.5px;
 }
-.greedy-nav .visible-links a:before{ left:0.55em;             /* match the link's horizontal padding */
-  right:0.55em;
-  width:auto;              /* lets left/right define the width */
-  height:3px;
-  border-radius:3px;}   /* thinner active underline */
+.greedy-nav .visible-links li:first-child a{ margin-left:0; }
+.greedy-nav .visible-links a:before{
+  left:0; width:100%;
+  height:3px; border-radius:3px;
+}   /* thinner active underline */
 
 .greedy-nav .visible-links{ gap:0; }
-.greedy-nav .visible-links li{ margin:0; }
 
 .navbar-avatar{ width:42px; height:42px; }            /* was 48px */
 .masthead .site-logo img{ max-width:42px; }
