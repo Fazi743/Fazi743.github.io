@@ -39,7 +39,11 @@ body > .page__footer{ flex-shrink:0; }
   padding:0 0.55em;
   letter-spacing:0;
 }
-.greedy-nav .visible-links a:before{ height:3px; }   /* thinner active underline */
+.greedy-nav .visible-links a:before{ left:0.55em;             /* match the link's horizontal padding */
+  right:0.55em;
+  width:auto;              /* lets left/right define the width */
+  height:3px;
+  border-radius:3px;}   /* thinner active underline */
 
 .greedy-nav .visible-links{ gap:0; }
 .greedy-nav .visible-links li{ margin:0; }
