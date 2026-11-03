@@ -1225,3 +1225,150 @@ body{ background:#fff; }
 @media(max-width:800px){
   .contact-grid{ grid-template-columns:1fr; }
 }
+
+
+/* =====================================================
+   DARK MODE (gear icon) – overrides for custom components
+   Paste at the VERY END of custom.css
+   ===================================================== */
+html[data-theme="dark"]{
+  --accent:#6ea0ff;                     /* lighter blue for dark bg */
+  --accent-soft:rgba(110,160,255,.14);
+  --accent-border:rgba(110,160,255,.38);
+  --d-bg:#474747;                        /* theme body colour */
+  --d-card:#3a3a3a;                      /* card surface */
+  --d-card-2:#333333;                    /* nested surface */
+  --d-border:#5a5a5a;
+  --d-text:#ececec;
+  --d-muted:#b8b8b8;
+  --d-shadow:0 8px 24px rgba(0,0,0,.35);
+}
+
+html[data-theme="dark"] body{ background:var(--d-bg); color:var(--d-text); }
+
+/* ---- home: hero ---- */
+html[data-theme="dark"] .hero{ background:linear-gradient(180deg,#3d3d4a 0%,var(--d-bg) 100%); }
+html[data-theme="dark"] .hero h1,
+html[data-theme="dark"] .hero-affil,
+html[data-theme="dark"] .hero-tags,
+html[data-theme="dark"] .hero-location{ color:var(--d-text); }
+html[data-theme="dark"] .hero-tags,
+html[data-theme="dark"] .hero-location{ color:var(--d-muted); }
+html[data-theme="dark"] .hero-right img{ border-color:var(--d-card); }
+
+html[data-theme="dark"] .btn-outline{ background:var(--d-card); color:var(--d-text) !important; }
+html[data-theme="dark"] .btn-outline:hover{ background:#505050 !important; border-color:#fff !important; color:var(--accent) !important; }
+html[data-theme="dark"] .btn-primary{ border-color:#000 !important; }
+
+html[data-theme="dark"] .stat{ background:var(--d-card); border-color:var(--d-border); box-shadow:var(--d-shadow); }
+html[data-theme="dark"] .stat-label{ color:var(--d-muted); }
+
+/* ---- home: about / glance / cards ---- */
+html[data-theme="dark"] .about-card,
+html[data-theme="dark"] .glance-card,
+html[data-theme="dark"] .card{ background:var(--d-card); border-color:var(--d-border); box-shadow:var(--d-shadow); }
+html[data-theme="dark"] .section h2,
+html[data-theme="dark"] .section h2.card-title,
+html[data-theme="dark"] .card h2,
+html[data-theme="dark"] .card h3{ color:var(--d-text); }
+html[data-theme="dark"] .about-card p,
+html[data-theme="dark"] .card p{ color:var(--d-muted); }
+html[data-theme="dark"] .contact-row .ico{ color:var(--d-text); }
+html[data-theme="dark"] .glance{ background:var(--d-card-2); border-color:var(--d-border); }
+html[data-theme="dark"] .glance .stat-label{ color:var(--d-muted); }
+html[data-theme="dark"] .pill{ background:var(--accent-soft); color:var(--d-text) !important; }
+html[data-theme="dark"] .pill:hover{ background:var(--accent); color:#111 !important; }
+html[data-theme="dark"] .link-arrow{ color:var(--d-text); }
+
+/* ---- sidebar ---- */
+html[data-theme="dark"] .sidebar{ background:linear-gradient(180deg,#3d3d4a 0%,#363640 100%); border-color:var(--d-border); }
+html[data-theme="dark"] .author__avatar img{ border-color:var(--d-card); }
+html[data-theme="dark"] .author__name{ color:var(--d-text); }
+html[data-theme="dark"] .author__bio{ color:var(--d-muted); }
+html[data-theme="dark"] .author__urls a{ color:var(--d-text); }
+
+/* ---- inner page text ---- */
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .page__content h2,
+html[data-theme="dark"] .page__content h3,
+html[data-theme="dark"] .page__content strong{ color:var(--d-text); }
+html[data-theme="dark"] .page__content h2{ border-bottom-color:var(--d-border); }
+html[data-theme="dark"] .page__content p,
+html[data-theme="dark"] .page__content li{ color:#d6d6d6; }
+
+/* ---- generic card families ---- */
+html[data-theme="dark"] .pcard,
+html[data-theme="dark"] .tl-card,
+html[data-theme="dark"] .edu-card,
+html[data-theme="dark"] .cert,
+html[data-theme="dark"] .ccard,
+html[data-theme="dark"] .rcard,
+html[data-theme="dark"] .acard,
+html[data-theme="dark"] .pub{
+  background:var(--d-card);
+  border-color:var(--d-border);
+  box-shadow:var(--d-shadow);
+}
+html[data-theme="dark"] .pcard,
+html[data-theme="dark"] .rcard,
+html[data-theme="dark"] .ccard{ border-top-color:var(--accent); }
+html[data-theme="dark"] .pub{ border-left-color:var(--accent); }
+
+html[data-theme="dark"] .page__content .pcard__title,
+html[data-theme="dark"] .page__content .tl-title,
+html[data-theme="dark"] .page__content .edu-title,
+html[data-theme="dark"] .page__content .ccard-title,
+html[data-theme="dark"] .page__content .rcard-title,
+html[data-theme="dark"] .page__content .acard-title,
+html[data-theme="dark"] .page__content .pub-title,
+html[data-theme="dark"] .cert-name{ color:var(--d-text); }
+
+html[data-theme="dark"] .pcard__meta,
+html[data-theme="dark"] .pcard__date,
+html[data-theme="dark"] .tl-org,
+html[data-theme="dark"] .edu-org,
+html[data-theme="dark"] .edu-note,
+html[data-theme="dark"] .cert-meta,
+html[data-theme="dark"] .ccard-label,
+html[data-theme="dark"] .pub-meta,
+html[data-theme="dark"] .page__content .pub-authors,
+html[data-theme="dark"] .page__content .pcard p,
+html[data-theme="dark"] .page__content .tl-card p,
+html[data-theme="dark"] .page__content .tl-card li,
+html[data-theme="dark"] .page__content .ccard p,
+html[data-theme="dark"] .page__content .ccard-list li,
+html[data-theme="dark"] .page__content .rcard li,
+html[data-theme="dark"] .page__content .acard p{ color:var(--d-muted); }
+
+html[data-theme="dark"] .tl-date,
+html[data-theme="dark"] .edu-date{ background:var(--d-card-2); border-color:var(--d-border); color:var(--d-text); }
+html[data-theme="dark"] .tl-dot{ border-color:var(--d-bg); }
+
+html[data-theme="dark"] .tag{ background:var(--accent-soft); color:var(--accent); border-color:var(--accent-border); }
+html[data-theme="dark"] .edu-foot{ background:var(--d-card-2); border-top-color:var(--d-border); }
+html[data-theme="dark"] .edu-foot .tag{ background:var(--d-card); }
+html[data-theme="dark"] .cert-img img{ background:var(--d-card-2); border-bottom-color:var(--d-border); }
+html[data-theme="dark"] .acard-icon,
+html[data-theme="dark"] .ccard-icon,
+html[data-theme="dark"] .rcard-num{ background:var(--accent-soft); border-color:var(--accent-border); }
+
+/* status badges: keep readable */
+html[data-theme="dark"] .badge--done{ background:var(--accent-soft); color:var(--accent); border-color:var(--accent-border); }
+html[data-theme="dark"] .pub-type--journal{ background:var(--accent-soft); color:var(--accent); border-color:var(--accent-border); }
+
+/* vision / journey / future / pub-more boxes */
+html[data-theme="dark"] .vision,
+html[data-theme="dark"] .fcard,
+html[data-theme="dark"] .pub-more{ background:var(--accent-soft); border-color:var(--accent-border); }
+html[data-theme="dark"] .page__content .vision p,
+html[data-theme="dark"] .page__content .fcard p,
+html[data-theme="dark"] .page__content .pub-more p{ color:var(--d-text); }
+html[data-theme="dark"] .step{ background:var(--d-card); border-color:var(--d-border); color:var(--d-text); }
+html[data-theme="dark"] .step--now{ background:var(--accent); border-color:var(--accent); color:#111; }
+
+/* copy button + footer */
+html[data-theme="dark"] .copy-btn{ color:var(--d-muted); }
+html[data-theme="dark"] .copy-btn:hover{ color:#fff; }
+html[data-theme="dark"] .page__footer{ background:#3a3a3a; border-top-color:var(--d-border); }
+html[data-theme="dark"] .page__footer,
+html[data-theme="dark"] .page__footer a{ color:var(--d-muted) !important; }
