@@ -12,8 +12,8 @@ Alongside my research I work as a freelancer, mainly for academics and researche
 
 <div class="card">
   <div class="gallery">
-    <a href="/images/freelance/text-to-excel-1.png" target="_blank"><img src="/images/freelance/text-to-excel-1.png" alt="Raw text input"></a>
-    <a href="/images/freelance/text-to-excel-2.png" target="_blank"><img src="/images/freelance/text-to-excel-2.png" alt="Structured Excel output"></a>
+    <a href="/images/freelance/text-to-excel-1.jpg" target="_blank"><img src="/images/freelance/text-to-excel-1.jpg" alt="Raw text input"></a>
+    <a href="/images/freelance/text-to-excel-2.jpg" target="_blank"><img src="/images/freelance/text-to-excel-2.jpg" alt="Structured Excel output"></a>
   </div>
   <h3>Unstructured Text → Excel Parser</h3>
   <p><strong>Need:</strong> a large text file with irregular formats, headers, and nested records had to become a clean spreadsheet.</p>
@@ -23,8 +23,8 @@ Alongside my research I work as a freelancer, mainly for academics and researche
 
 <div class="card">
   <div class="gallery">
-    <a href="/images/freelance/excel-merge-1.png" target="_blank"><img src="/images/freelance/excel-merge-1.png" alt="Input sheets"></a>
-    <a href="/images/freelance/excel-merge-2.png" target="_blank"><img src="/images/freelance/excel-merge-2.png" alt="Merged master table"></a>
+    <a href="/images/freelance/excel-merge-1.jpg" target="_blank"><img src="/images/freelance/excel-merge-1.jpg" alt="Input sheets"></a>
+    <a href="/images/freelance/excel-merge-2.jpg" target="_blank"><img src="/images/freelance/excel-merge-2.jpg" alt="Merged master table"></a>
   </div>
   <h3>Multi-Sheet Excel Merge & Cleaning</h3>
   <p><strong>Need:</strong> 20,000+ rows spread over five sheets with different schemas but shared ID columns, full of duplicates, nulls, and mismatches.</p>
@@ -40,7 +40,7 @@ Alongside my research I work as a freelancer, mainly for academics and researche
 
 <div class="card">
   <div class="gallery">
-    <a href="/images/freelance/tnet-figure-1.png" target="_blank"><img src="/images/freelance/tnet-figure-1.png" alt="Model architecture figure"></a>
+    <a href="/images/freelance/tnet-figure-1.jpg" target="_blank"><img src="/images/freelance/tnet-figure-1.jpg" alt="Model architecture figure"></a>
   </div>
   <h3>Model Architecture Figure for a Q1 Journal</h3>
   <p><strong>Need:</strong> a publication-quality figure of an AI model's feature-extraction network and Transformation module (TNet).</p>
@@ -50,8 +50,8 @@ Alongside my research I work as a freelancer, mainly for academics and researche
 
 <div class="card">
   <div class="gallery">
-    <a href="/images/freelance/hydrology-1.png" target="_blank"><img src="/images/freelance/hydrology-1.png" alt="Client's rough draft"></a>
-    <a href="/images/freelance/hydrology-2.png" target="_blank"><img src="/images/freelance/hydrology-2.png" alt="Final flowchart"></a>
+    <a href="/images/freelance/hydrology-1.jpg" target="_blank"><img src="/images/freelance/hydrology-1.jpg" alt="Client's rough draft"></a>
+    <a href="/images/freelance/hydrology-2.jpg" target="_blank"><img src="/images/freelance/hydrology-2.jpg" alt="Final flowchart"></a>
   </div>
   <h3>Conceptual Framework for a Review Article</h3>
   <p><strong>Need:</strong> turn a rough draft of a conceptual framework on Stable Isotope Hydrology into a figure suitable for a journal manuscript.</p>
@@ -61,7 +61,7 @@ Alongside my research I work as a freelancer, mainly for academics and researche
 
 <div class="card">
   <div class="gallery">
-    <a href="/images/freelance/scientific-figure-1.png" target="_blank"><img src="/images/freelance/scientific-figure-1.png" alt="Scientific figure"></a>
+    <a href="/images/freelance/scientific-figure-1.jpg" target="_blank"><img src="/images/freelance/scientific-figure-1.jpg" alt="Scientific figure"></a>
   </div>
   <h3>Scientific Figure for a Research Paper</h3>
   <p><strong>Need:</strong> a precise figure built from the client's detailed technical specification.</p>
@@ -71,7 +71,7 @@ Alongside my research I work as a freelancer, mainly for academics and researche
 
 <div class="card">
   <div class="gallery">
-    <a href="/images/freelance/tables-to-figure-1.png" target="_blank"><img src="/images/freelance/tables-to-figure-1.png" alt="Comparison figure of four study groups"></a>
+    <a href="/images/freelance/tables-to-figure-1.jpg" target="_blank"><img src="/images/freelance/tables-to-figure-1.jpg" alt="Comparison figure of four study groups"></a>
   </div>
   <h3>Five Tables → One Comparison Figure</h3>
   <p><strong>Need:</strong> visualise data from five separate tables as a single figure comparing four study groups.</p>
@@ -87,7 +87,7 @@ Alongside my research I work as a freelancer, mainly for academics and researche
 
 <div class="card">
   <div class="gallery">
-    <a href="/images/freelance/slide-deck-1.png" target="_blank"><img src="/images/freelance/slide-deck-1.png" alt="Academic slide deck"></a>
+    <a href="/images/freelance/slide-deck-1.jpg" target="_blank"><img src="/images/freelance/slide-deck-1.jpg" alt="Academic slide deck"></a>
   </div>
   <h3>Academic Slide Deck</h3>
   <p><strong>Need:</strong> an 8–10 slide academic presentation built from raw text, without dropping any content, within one day.</p>
