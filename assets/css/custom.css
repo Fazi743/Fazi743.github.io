@@ -35,10 +35,14 @@ body > .page__footer{ flex-shrink:0; }
 .masthead__inner-wrap{ padding:0.6em 1em; }          /* was ~1em: lowers bar height */
 
 .greedy-nav a{
-  font-size:16px;                                     /* nav link size (theme is ~18px) */
-  padding:0 0.8em;
+  font-size:15.5px;                                     /* nav link size (theme is ~18px) */
+  padding:0 0.55em;
+  letter-spacing:0;
 }
 .greedy-nav .visible-links a:before{ height:3px; }   /* thinner active underline */
+
+.greedy-nav .visible-links{ gap:0; }
+.greedy-nav .visible-links li{ margin:0; }
 
 .navbar-avatar{ width:42px; height:42px; }            /* was 48px */
 .masthead .site-logo img{ max-width:42px; }
