@@ -23,7 +23,7 @@ repository               : "Fazi743/Fazi743.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Syed Faizan Hussain Shah"
   pronouns         : # example: "she/her"  
   bio              : "Master's of Artificial Intelligence <br> AI Researcher | Trustworthy AI <br> Efficient LLMs & VLMs"
