@@ -15,7 +15,7 @@ Sports, outdoor challenges, cultural programs, and community activities outside 
   <div class="act-body">
     <span class="act-date">📅 Aug 2026 · Jeju, South Korea</span>
     <h3 class="act-title">Jeju Local Heritage School 🏛️</h3>
-    <p>Completed the 2026 Jeju Local Heritage School – College Student Class (3–7 August), a five-day program on Jeju's culture and heritage, with a certificate from the Governor of Jeju Special Self-Governing Province.</p>
+    <p>Completed the 2026 Jeju Local Heritage School (3–7 August), a five-day program on Jeju's culture and heritage, with a certificate from the Governor of Jeju Special Self-Governing Province.</p>
   </div>
 </div>
 
@@ -48,7 +48,7 @@ Sports, outdoor challenges, cultural programs, and community activities outside 
   <div class="act-body">
     <span class="act-date">📅 May 2025 · Hunan, China</span>
     <h3 class="act-title">Group Hiking 🥾</h3>
-    <p>Hiking trip to 水青山生态农湾 (Shuiqingshan Eco-Farm) with the iCAN Crazy English Club, together with local and international friends.</p>
+    <p>Hiking trip to 水青山生态农湾 (Shuiqingshan Eco-Farm) with the iCAN Crazy English Club, together with local and international peoples.</p>
   </div>
 </div>
 
