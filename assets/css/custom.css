@@ -32,33 +32,39 @@ body > .page__footer{ flex-shrink:0; }
 .masthead{ margin-top:0; border-top:0; }
 
 /* ---------- Header: slightly more compact ---------- */
-.masthead__inner-wrap{ padding:0.35em 1em; }          /* was ~1em: lowers bar height */
+.masthead__inner-wrap{ padding:0.35em 1em; }
 
-.greedy-nav{ display:flex; align-items:center; }
-.greedy-nav button{
-  position:static;
-  height:auto;
-  margin-left:6px;
-  padding:0 0.4rem;
-  display:flex; align-items:center;
-}
-.greedy-nav .hidden-links{ right:auto; left:0; }   /* dropdown opens under the menu, not at the far right */
-
+/* links: tighter spacing */
 .greedy-nav a{
-  margin:0 0.45rem;        /* was 1rem each side */
+  margin:0 0.45rem;
   padding:0.35rem 0.15rem;
   font-size:15.5px;
 }
 .greedy-nav .visible-links li:first-child a{ margin-left:0; }
+
+/* thinner active underline, pulled up slightly */
 .greedy-nav .visible-links a:before{
   left:0; width:100%;
   height:3px; border-radius:3px;
   bottom:2px;
-}   /* thinner active underline */
+}
 
-.greedy-nav .visible-links{ gap:0; display:flex; align-items:center; }
+/* gear: equal space on both sides, like the text links */
+.greedy-nav .visible-links #theme-toggle a{
+  width:auto;
+  margin:0 0.7rem;
+  padding:0.35rem 0.15rem;
+}
 
-.navbar-avatar{ width:42px; height:42px; }            /* was 48px */
+/* ☰ stays pinned at the right edge (theme default), just vertically centred */
+.greedy-nav button{
+  top:50%;
+  transform:translateY(-50%);
+  height:auto;
+  padding:0 0.5rem;
+}
+
+.navbar-avatar{ width:42px; height:42px; }
 .masthead .site-logo img{ max-width:42px; }
 
 /* ---------- Hero (full-width gradient, content centred at 1250px) ---------- */
