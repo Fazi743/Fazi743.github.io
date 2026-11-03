@@ -67,6 +67,16 @@ body > .page__footer{ flex-shrink:0; }
 .navbar-avatar{ width:42px; height:42px; }
 .masthead .site-logo img{ max-width:42px; }
 
+/* active tab: reuse the hover bar instead of the border */
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover{
+  border-bottom:0;
+}
+.masthead__menu-item.selected a:before{
+  transform:scaleX(1);                    /* always shown */
+  background:var(--global-text-color);    /* dark line for the current page */
+}
+
 /* ---------- Hero (full-width gradient, content centred at 1250px) ---------- */
 .hero{
   display:flex;
