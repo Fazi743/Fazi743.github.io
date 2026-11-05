@@ -30,6 +30,18 @@ Sports, outdoor challenges, cultural programs, and community activities outside 
   </div>
 </div>
 
+<div class="act act--square">
+  <div class="act-gallery">
+    <a href="/images/activities/jeju-cricket-2025-1.jpg" target="_blank"><img src="/images/activities/jeju-cricket-2025-1.jpg" alt="Batting at the Jeju City Cricket Association President's Cup" loading="lazy"></a>
+    <a href="/images/activities/jeju-cricket-2025-2.jpg" target="_blank"><img src="/images/activities/jeju-cricket-2025-2.jpg" alt="Receiving the 3rd place trophy" loading="lazy"></a>
+  </div>
+  <div class="act-body">
+    <span class="act-date">📅 1–2 Nov 2025 · Hallim Sports Complex, Jeju</span>
+    <h3 class="act-title">Jeju City Cricket Association President's Cup 🏏</h3>
+    <p>Played in the 2025 제주시 크리켓협회장배 크리켓대회 (Jeju City Cricket Association President's Cup) at Hallim Sports Complex and finished <strong>3rd place</strong>, receiving the trophy from the Association President.</p>
+  </div>
+</div>
+
 <div class="act act--tall">
   <div class="act-gallery">
     <a href="/images/activities/uctr-zhangjiajie-2025.jpg" target="_blank"><img src="/images/activities/uctr-zhangjiajie-2025.jpg" alt="UCTR Zhangjiajie trail race" loading="lazy"></a>
