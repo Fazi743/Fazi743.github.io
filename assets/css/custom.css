@@ -1256,6 +1256,39 @@ body{ background:#fff; }
 @media(max-width:900px){ .act-grid{ columns:2; } }
 @media(max-width:600px){ .act-grid{ columns:2; column-gap:12px; } .act{ margin-bottom:12px; } }
 
+/* ---------- Talks ---------- */
+.talk{
+  display:grid;
+  grid-template-columns:320px 1fr;
+  gap:22px;
+  background:#fff;
+  border:1px solid #e6e6ee;
+  border-left:5px solid var(--accent);
+  border-radius:16px;
+  padding:18px;
+  margin:0 0 22px;
+  box-shadow:0 8px 24px rgba(0,0,0,.05);
+  transition:.25s;
+}
+.talk:hover{ transform:translateY(-3px); box-shadow:0 14px 32px rgba(0,0,0,.08); }
+
+.talk-media .act-gallery{ border-radius:10px; overflow:hidden; }
+.talk-media .act-gallery img{ aspect-ratio:4 / 3; object-position:center; }
+
+.talk-body{ min-width:0; }
+.talk-meta{ display:flex; flex-wrap:wrap; align-items:center; gap:8px 10px; margin-bottom:8px; }
+.talk-date{ font-size:14px; color:#555; }
+.badge--talk{ background:var(--accent-soft); color:var(--accent); border:1px solid var(--accent-border); }
+.badge--award{ background:#fff9e8; color:#8a5a00; border:1px solid #f0d58a; text-transform:none; }
+
+.page__content .talk-title{ font-size:19px; font-weight:700; color:#111; line-height:1.35; margin:0 0 6px; }
+.talk-venue{ font-size:15px; color:#555; margin-bottom:10px; }
+.page__content .talk p{ font-size:15.5px; line-height:1.65; color:#333; margin:0 0 12px; }
+
+@media(max-width:800px){
+  .talk{ grid-template-columns:1fr; }
+}
+
 /* ---------- Contact page ---------- */
 .page__content .contact-intro p{ font-size:17px; color:#333; margin:0 0 24px; }
 
@@ -1489,6 +1522,12 @@ html[data-theme="dark"] .act{ background:var(--d-card); border-color:var(--d-bor
 html[data-theme="dark"] .act-gallery{ background:var(--d-card-2); }
 html[data-theme="dark"] .page__content .act-title{ color:var(--d-text); }
 html[data-theme="dark"] .page__content .act p{ color:var(--d-muted); }
+
+/* dark mode */
+html[data-theme="dark"] .talk{ background:var(--d-card); border-color:var(--d-border); border-left-color:var(--accent); box-shadow:var(--d-shadow); }
+html[data-theme="dark"] .page__content .talk-title{ color:var(--d-text); }
+html[data-theme="dark"] .talk-venue, html[data-theme="dark"] .talk-date,
+html[data-theme="dark"] .page__content .talk p{ color:var(--d-muted); }
 
 /* copy button + footer */
 html[data-theme="dark"] .copy-btn{ color:var(--d-muted); }
